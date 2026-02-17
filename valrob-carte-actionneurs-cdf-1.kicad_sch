@@ -2010,6 +2010,299 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Motor:Motor_Servo"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at -5.08 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_Servo"
+				(at -5.08 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Servo_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Espressif:ESP32-S3"
 			(pin_names
 				(offset 1.016)
@@ -3696,6 +3989,18 @@
 		)
 	)
 	(rectangle
+		(start 13.97 13.97)
+		(end 46.99 35.56)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ad7fe05-49b9-46bf-867f-73277490ced3)
+	)
+	(rectangle
 		(start 15.24 173.99)
 		(end 46.99 195.58)
 		(stroke
@@ -3777,6 +4082,24 @@
 		)
 		(uuid "a482b797-4466-4a2f-a63e-25c476669038")
 	)
+	(text "Servo"
+		(exclude_from_sim no)
+		(at 37.084 28.702 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f67c50e3-7590-4158-8fd3-b773f79b44c0")
+	)
+	(junction
+		(at 25.4 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a23c35-73df-40f3-b502-63aabbb66a87")
+	)
 	(junction
 		(at 190.5 25.4)
 		(diameter 0)
@@ -3802,6 +4125,12 @@
 		(uuid "1359c43c-4363-4743-bc42-336bb6d4c87c")
 	)
 	(junction
+		(at 25.4 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199b27e2-39f8-4640-ba32-91d892467dbb")
+	)
+	(junction
 		(at 198.12 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3818,6 +4147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50cb5d26-f18a-45f9-b296-8692df70f7c1")
+	)
+	(junction
+		(at 21.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f414f4f-a8f1-41ce-a10e-ed7aafe58888")
 	)
 	(junction
 		(at 200.66 25.4)
@@ -4087,6 +4422,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 17.78) (xy 30.48 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9d79ca-292a-46a5-99a2-5830fe88a68d")
+	)
+	(wire
+		(pts
 			(xy 248.92 63.5) (xy 262.89 63.5)
 		)
 		(stroke
@@ -4234,6 +4579,16 @@
 			(type default)
 		)
 		(uuid "4196f16c-1af0-4027-8dde-e18ad9309573")
+	)
+	(wire
+		(pts
+			(xy 25.4 20.32) (xy 30.48 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425284dc-e603-4f4d-bbd5-02f49039f6c7")
 	)
 	(wire
 		(pts
@@ -4407,6 +4762,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 22.86) (xy 29.21 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbfb68f-d850-40e2-852b-46b5dc395469")
+	)
+	(wire
+		(pts
 			(xy 143.51 49.53) (xy 143.51 48.26)
 		)
 		(stroke
@@ -4517,6 +4882,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 20.32) (xy 25.4 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f822652-9b29-46e3-9fbd-9c283aae5cf7")
+	)
+	(wire
+		(pts
 			(xy 153.67 49.53) (xy 157.48 49.53)
 		)
 		(stroke
@@ -4574,6 +4949,16 @@
 			(type default)
 		)
 		(uuid "7a67ed3d-7803-41c8-bc2e-4c572241d2b2")
+	)
+	(wire
+		(pts
+			(xy 17.78 20.32) (xy 25.4 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd29268-2ccd-4f1a-be21-b46b2061843b")
 	)
 	(wire
 		(pts
@@ -4677,6 +5062,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 31.75) (xy 21.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a293c2-e879-445e-ac72-a3f459f9d441")
+	)
+	(wire
+		(pts
 			(xy 265.43 68.58) (xy 266.7 68.58)
 		)
 		(stroke
@@ -4704,6 +5099,16 @@
 			(type default)
 		)
 		(uuid "97ece338-9abb-4da7-a10b-ff045e202eaa")
+	)
+	(wire
+		(pts
+			(xy 29.21 30.48) (xy 25.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984b55a1-c0a9-4d17-9bbd-6cc1a8db9b5b")
 	)
 	(wire
 		(pts
@@ -5097,6 +5502,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 29.21) (xy 25.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6da4bc4-75cb-47d2-8510-6342258e215a")
+	)
+	(wire
+		(pts
 			(xy 16.51 181.61) (xy 21.59 181.61)
 		)
 		(stroke
@@ -5104,6 +5519,16 @@
 			(type default)
 		)
 		(uuid "d8bbac0c-eaaf-4e74-9e3e-283145f2772f")
+	)
+	(wire
+		(pts
+			(xy 29.21 22.86) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d5bab3-7c7f-42cd-ba54-9c06cad3d22d")
 	)
 	(wire
 		(pts
@@ -5154,6 +5579,16 @@
 			(type default)
 		)
 		(uuid "e086d287-9604-408e-96e4-58090329fea8")
+	)
+	(wire
+		(pts
+			(xy 17.78 20.32) (xy 17.78 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3070cc1-7313-43d6-80cc-5281fdd35283")
 	)
 	(wire
 		(pts
@@ -5237,6 +5672,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 30.48) (xy 17.78 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d50513-bdf9-42dc-aae2-08b595fa9924")
+	)
+	(wire
+		(pts
 			(xy 87.63 184.15) (xy 87.63 187.96)
 		)
 		(stroke
@@ -5254,6 +5699,26 @@
 			(type default)
 		)
 		(uuid "fbd29894-9103-4b47-b613-7cb4ed2b04a6")
+	)
+	(wire
+		(pts
+			(xy 17.78 30.48) (xy 21.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd60f8b-a8b5-4a6f-9851-2c849a927aa7")
+	)
+	(wire
+		(pts
+			(xy 21.59 30.48) (xy 25.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef11c84-44fc-4c91-8a76-a383e736f745")
 	)
 	(wire
 		(pts
@@ -5284,6 +5749,16 @@
 			(justify right bottom)
 		)
 		(uuid "1986f23f-3972-4af5-b4cd-cfad9d7f745a")
+	)
+	(label "SERVO1"
+		(at 21.59 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19fcc077-e407-44e1-a415-13f0cfe5517a")
 	)
 	(label "VDD_SPI"
 		(at 187.96 41.91 0)
@@ -7658,6 +8133,178 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLCS:H5VU10U")
+		(at 25.4 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6125d5a2-1cde-4ba1-8fa5-7f7e4babbd7b")
+		(property "Reference" "D1"
+			(at 22.098 22.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H5VU10U"
+			(at 27.94 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GLCS:Diode_DFN1006"
+			(at 20.955 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 25.4 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22395519"
+			(at 25.4 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 25.4 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "H5VU10U"
+			(at 25.4 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49566c94-5665-4f00-ba56-2ac728c4e9d8")
+		)
+		(pin "2"
+			(uuid "362563de-b4dd-4cd7-979d-b6a5c9496474")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e9bb379-5d58-470e-bb30-d816b5eda454")
+		(property "Reference" "#PWR033"
+			(at 21.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 18.288 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0abedeb-b0e2-48d3-8bc2-3c2de26487a3")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10386,6 +11033,185 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 17.78 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df126ad2-fcff-479d-898b-0a09e0d28973")
+		(property "Reference" "C3"
+			(at 19.812 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 19.812 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 16.8148 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C96123"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL31A476MPHNNNE"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a76be2c9-0281-48cf-87f3-c49c8da878b0")
+		)
+		(pin "1"
+			(uuid "309e1984-6c42-47e7-b45c-edb4f7b6ec2a")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 38.1 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "df8794e1-ac65-456b-a57a-3ddf903848bb")
+		(property "Reference" "M1"
+			(at 41.91 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 46.99 21.1568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 38.1 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 38.1 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ac6ac517-c8c8-407c-adec-a7bfd7992980")
+		)
+		(pin "2"
+			(uuid "0e07716e-bbfc-43d8-b0d2-cb97f3545098")
+		)
+		(pin "1"
+			(uuid "e8503822-ea8c-4524-a49b-7f41dc4784a8")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "M1")
 					(unit 1)
 				)
 			)
