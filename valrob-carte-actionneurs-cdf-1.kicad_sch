@@ -14688,8 +14688,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 87.63)
-		(size 12.7 15.24)
+		(at 63.5 90.17)
+		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14704,7 +14704,7 @@
 		)
 		(uuid "48973bbb-a015-4db7-bad7-59f32d4f7f80")
 		(property "Sheetname" "Connectors"
-			(at 63.5 86.9184 0)
+			(at 63.5 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14713,13 +14713,43 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 63.5 103.4546 0)
+			(at 63.5 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "ILM" output
+			(at 63.5 92.71 180)
+			(uuid "43e6ab6c-8fe9-49a6-add3-04b4518420af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 76.2 92.71 0)
+			(uuid "a6837e25-2dbf-46a8-8274-52544d0ce12c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG" output
+			(at 63.5 96.52 180)
+			(uuid "e0389446-72c3-4f98-a09b-7a468ce9b177")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
