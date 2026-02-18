@@ -1355,12 +1355,6 @@
 		(uuid "13c41689-21c7-403e-85df-c516577ecac0")
 	)
 	(junction
-		(at 181.61 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e7a48eb-ae2f-4aa3-8efc-02b80a869e12")
-	)
-	(junction
 		(at 128.27 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1371,12 +1365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "463c177c-5f12-427f-9ef8-00ad45de19ca")
-	)
-	(junction
-		(at 189.23 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "486baa21-9b97-49eb-af9f-8ed4805efed2")
 	)
 	(junction
 		(at 128.27 93.98)
@@ -1391,10 +1379,10 @@
 		(uuid "c6b0b23e-8f41-44ba-a5a9-d89f0b14396f")
 	)
 	(junction
-		(at 185.42 93.98)
+		(at 176.53 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0fec2e2-2857-42c2-a3cd-d85ded9c1bb9")
+		(uuid "d42d3bd1-c905-49e2-8f02-3fe4e158807a")
 	)
 	(junction
 		(at 144.78 111.76)
@@ -1442,26 +1430,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 189.23 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d518a0b-1705-49b6-8565-66c553eaea2d")
-	)
-	(wire
-		(pts
-			(xy 189.23 85.09) (xy 189.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eafcffd-8201-488f-aaee-8e5474a6fb53")
-	)
-	(wire
-		(pts
 			(xy 128.27 92.71) (xy 128.27 93.98)
 		)
 		(stroke
@@ -1482,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 181.61 93.98)
+			(xy 176.53 92.71) (xy 176.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1542,16 +1510,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 185.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce44858-7940-47a4-86b3-fbf9a2446cb6")
-	)
-	(wire
-		(pts
 			(xy 152.4 102.87) (xy 152.4 106.68)
 		)
 		(stroke
@@ -1592,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 181.61 83.82)
+			(xy 163.83 83.82) (xy 176.53 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 181.61 85.09)
+			(xy 176.53 83.82) (xy 176.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1642,13 +1600,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 185.42 95.25)
+			(xy 176.53 83.82) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e94f294-f918-4bc0-b1ce-671bb3ebcc50")
+		(uuid "56a71287-bc2b-4325-8825-afda7db833ef")
 	)
 	(wire
 		(pts
@@ -1792,16 +1750,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 83.82) (xy 193.04 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b629ba66-317f-482c-af76-260ffb9b95ac")
-	)
-	(wire
-		(pts
 			(xy 133.35 86.36) (xy 130.81 86.36)
 		)
 		(stroke
@@ -1829,16 +1777,6 @@
 			(type default)
 		)
 		(uuid "cfda15dc-05ee-4d55-bb6f-bcefa556dda1")
-	)
-	(wire
-		(pts
-			(xy 185.42 93.98) (xy 189.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d11a7da5-38be-4773-af72-2aaf476e9095")
 	)
 	(wire
 		(pts
@@ -1942,16 +1880,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 189.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbeb9d66-84d3-4a5e-874d-d013d37e4af8")
-	)
-	(wire
-		(pts
 			(xy 142.24 111.76) (xy 144.78 111.76)
 		)
 		(stroke
@@ -1973,7 +1901,7 @@
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 193.04 83.82 0)
+		(at 181.61 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2784,7 +2712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 95.25 0)
+		(at 176.53 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2793,7 +2721,7 @@
 		(fields_autoplaced yes)
 		(uuid "5542f615-195e-4488-af4b-559b07b0e921")
 		(property "Reference" "#PWR087"
-			(at 185.42 101.6 0)
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 100.33 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 95.25 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 95.25 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 95.25 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,116 +2847,6 @@
 				)
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 189.23 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bf47425-30dd-4967-9beb-e5b6d63cf421")
-		(property "Reference" "C34"
-			(at 192.786 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220u"
-			(at 192.786 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 188.2648 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "X"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C2918361"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROQANG"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RVT1E221M0607"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c5e3cf7-479e-47a7-af2b-8128aeddc9e6")
-		)
-		(pin "1"
-			(uuid "732fc96f-217a-47a8-aa8a-40e1a9a4012b")
-		)
-		(instances
-			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
-					(reference "C39")
-					(unit 1)
-				)
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3266,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 181.61 88.9 0)
+		(at 176.53 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3457,7 +3275,7 @@
 		(dnp no)
 		(uuid "905b8a70-eaea-446d-8fd0-cdc033fabeb9")
 		(property "Reference" "C33"
-			(at 174.752 88.392 0)
+			(at 179.578 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3284,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 174.752 90.932 0)
+			(at 179.578 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3293,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 180.6448 92.71 0)
+			(at 175.5648 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 88.9 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3311,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 181.61 88.9 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3320,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 181.61 88.9 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3329,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2918361"
-			(at 181.61 88.9 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3338,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG"
-			(at 181.61 88.9 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3347,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RVT1E221M0607"
-			(at 181.61 88.9 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
