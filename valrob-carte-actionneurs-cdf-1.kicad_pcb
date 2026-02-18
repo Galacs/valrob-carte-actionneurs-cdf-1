@@ -419,7 +419,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0258df0f-9128-4f3f-934b-54eb536175e4")
-		(at 41.74 127.52)
+		(at 69.23 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M11"
@@ -467,6 +467,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/4e294dd1-d264-4935-a433-3642071c3441")
@@ -654,7 +657,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "03237140-3b97-4741-9238-9658254dd6c7")
-		(at 66.28 130.63)
+		(at 73.79 79.12)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -754,6 +757,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/260fe9d5-bad4-456a-a52d-0ff77d3f1378")
@@ -3281,7 +3287,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "1a1d0b8b-fa03-405d-8fe5-fe6560f5d96a")
-		(at 61.335 137.88)
+		(at 90.035 67.03)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D14"
@@ -3381,6 +3387,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/9a50fa53-f090-4bd3-936b-0523676fdddb")
@@ -3953,113 +3962,10 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "1bf1d5e6-166d-4140-b1ef-8718f8ea1196")
-		(at 35.8 140.97)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP10"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "c5e8df63-37a2-4b97-a8eb-af6e1479aa94")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "ad0dc936-d653-4163-acad-07c8e48a8ebc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "907221f9-13eb-4841-8c94-bc27badb46aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "626483a8-87e9-462c-930c-56fc1c2a1f1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/7e550b3b-a8ab-4735-8de1-53481b0998da")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "544d64b8-2d25-4fc8-8658-70b31c708e5c")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "301fb904-d553-4d58-918f-65226d6975bb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "e7768168-9ed0-45d6-b81c-46a002e78766")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "bdedd076-fe98-4eca-b50b-e4aeff5e8811")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "1c159bd9-1f1e-4aa0-b50a-cda4cf217e14")
-		(at 71.93 120.58)
+		(at 79.44 69.07)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -4160,6 +4066,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Servo")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a88e7055-2e1f-440a-9f99-68a85b740826")
 		(sheetname "/")
@@ -4252,7 +4161,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1d97ff43-cc8c-4058-9767-661ad85ebf09")
-		(at 55.51 127.52)
+		(at 83 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M14"
@@ -4300,6 +4209,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/32ff9f94-4145-4c8b-bf9d-9c74bf19ad2e")
@@ -4733,7 +4645,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1ec9888a-7a66-4789-bad1-d8ebaf19bc50")
-		(at 50.92 127.52)
+		(at 78.41 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M13"
@@ -4781,6 +4693,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/bfd33ef3-fa0f-40c1-b3b3-e092ea273ba1")
@@ -5743,7 +5658,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "2654958a-c33e-4799-a0b9-a1ff4fb3575c")
-		(at 66.28 120.58)
+		(at 73.79 69.07)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -5843,6 +5758,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/9d33f03b-a2ba-4179-800e-e79321800000")
@@ -6129,7 +6047,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "2aab258f-cf47-4fe5-a294-6f292d52bc19")
-		(at 71.93 123.93)
+		(at 79.44 72.42)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -6229,6 +6147,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/140f3114-9b35-438f-a3ce-d9937a7c080f")
@@ -6575,109 +6496,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "2cc3a982-d179-4984-8d90-2170e75558b5")
-		(at 39.85 136.92)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP13"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "8e2d42cb-4b75-454f-b53f-fa6ebe6b2a3d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "8fb2ae66-ec8f-4821-814e-c97fa08b27e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba53d4e7-4499-43d8-9196-d756ef034e85")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82ebbdd9-465b-4c88-a427-b20c9f93adef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/1d38caac-7ed5-4a5f-b98e-0636b99d9020")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8b8698f9-79ca-4871-8e79-e5ef06775ebf")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "cbce269a-420b-4514-a17a-09ae47297bf4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "e4e974aa-27f6-41cb-a2e0-b0b02b8ec44d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2f05c902-3251-4c98-ada1-b86b56ced1d8")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -7948,109 +7766,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "40ab9dab-6706-4bc6-9355-48e85428b8ff")
-		(at 27.7 145.02)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP3"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "b3d63b30-fd7d-4b3f-be03-ff598427944a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "ea37805b-2b5f-430e-9cdf-0cc35fab0db2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b0bd5e6-0557-4cd5-961b-6f7487876464")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6959d63a-524f-4854-9305-38bdcca678be")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a6bd66fe-2415-4e84-b64a-ec0f76319793")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "5ebd6894-a5d2-4009-b4f1-d34d85002fae")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "94946048-5fe1-4a1a-80c4-e8b8eb10a83d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "fcf7d9c8-3b75-4ff0-bcb1-41ce3db56004")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "718d2ce5-9d32-4fbb-8a45-4cc81a129c9e")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "428b0d20-0e91-4de4-a299-dc95521122b6")
@@ -8376,7 +8091,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "4357ef3e-46db-4928-8d84-6c3fd0784f42")
-		(at 71.93 117.23)
+		(at 79.44 65.72)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -8476,6 +8191,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4c9073a5-5cfa-4998-934d-036257e7e155")
@@ -8906,7 +8624,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4beb380a-a829-4a42-9d14-e1b91aa153fd")
-		(at 27.97 127.52)
+		(at 55.46 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M8"
@@ -8954,6 +8672,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/aca4986f-ca02-4628-8608-393cfdb126b2")
@@ -9457,7 +9178,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "57b4500b-b90c-4178-b9ab-854ef481645d")
-		(at 50.92 117.85)
+		(at 78.41 47)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M6"
@@ -9505,6 +9226,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/6230772b-6022-4f48-924f-0ded826fb9a6")
@@ -10878,109 +10602,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "5c620d20-7df1-40b9-bf1f-f8e365abb1c6")
-		(at 31.75 149.07)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP8"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "1910829a-17f9-417e-96f6-c8d48a5a5050")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "dcdab363-aa5d-4ee5-b5ac-36df2ba44df7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd4fe5a3-1ce7-45b5-9a7a-cde3606a6eb0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2a1f4c9-c35d-46d5-838c-3e80ccce90a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/7e378b9b-fdd0-4ae6-b2b2-2d0c1d2bb50b")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8aa24b3b-92de-4c39-8afb-622c0f690b10")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d59b11c7-29eb-4b67-9d34-829d626c162c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "f5caeb31-1323-4c3f-812c-8f1952f1db10")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5750741c-f38a-442e-838c-30abc815090c")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "5eaa77d3-b28f-4a7b-9c5b-581756b9dbb1")
@@ -11174,113 +10795,10 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "5eb15f01-364b-4672-ad57-db63113d0535")
-		(at 31.75 145.02)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP7"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "94c378fa-7756-4526-a5b8-74b1d12364dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "d78d0573-9ace-49a4-9971-a99548ace3d5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "623594aa-f039-4037-a94f-d689aed13845")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "761dd4ff-1dd2-44a7-9919-a2d3856c635b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/bb51708e-a8f8-4278-939f-2973598374ed")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "a206f3bd-dcd5-45c7-b70a-951c2041eaef")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d29117a8-f080-4323-ac7f-8fec81a4f113")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "d34e9b97-4399-48be-83b7-98666549d209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2bfac3e9-1451-46dc-a168-e272f5a9b7d4")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "5f7b3be5-8706-461a-970e-64f11f5a5510")
-		(at 55.225 145.84)
+		(at 86.98 65.04)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D6"
@@ -11380,6 +10898,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/6df60c84-8223-41f7-a826-b0df2899bad1")
@@ -11902,7 +11423,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "6407bf79-055c-4892-9307-36d7d4840498")
-		(at 58.28 145.84)
+		(at 86.98 73)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D12"
@@ -12002,6 +11523,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/750b4338-a464-45e1-ae56-0a53d49561fe")
@@ -12359,7 +11883,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "6c6b12a1-6dce-4267-a36f-190c62de852c")
-		(at 55.225 143.85)
+		(at 83.925 73)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D5"
@@ -12459,6 +11983,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/1ed5ec97-2329-4f0b-833f-d6c3b7787dc7")
@@ -13015,7 +12542,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "742b3c2a-182c-470b-9dbd-06593575dbed")
-		(at 27.97 117.85)
+		(at 45.37 42.4)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M1"
@@ -13765,7 +13292,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "7929928b-14c3-43db-a29c-87f51cd66aab")
-		(at 55.225 139.87)
+		(at 74 39.75)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
@@ -13865,6 +13392,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/56493db9-95dc-462a-8d27-2fa9980751d0")
@@ -14029,7 +13559,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "829bde69-d2fc-4e04-bf0f-493c030c2b12")
-		(at 66.28 127.28)
+		(at 73.79 75.77)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -14130,6 +13660,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Servo")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0ca05b33-9378-4640-919d-46154cef6986")
 		(sheetname "/")
@@ -14222,7 +13755,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "8310cb43-2bd3-406d-99ce-71dcc7c3ee7e")
-		(at 60.63 120.58)
+		(at 61.25 42.75 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -14272,7 +13805,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14285,7 +13818,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C96123"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14298,7 +13831,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14311,7 +13844,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31A476MPHNNNE"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14323,21 +13856,14 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Servo")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/936d74ef-b2d2-449f-9abb-999308475ae0")
 		(sheetname "/")
 		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9ab5426f-c7df-4f87-9430-995647d3b3a8")
-		)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -14347,6 +13873,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e34c94bd-0381-4b68-ba16-3211c310806a")
+		)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ab5426f-c7df-4f87-9430-995647d3b3a8")
 		)
 		(fp_rect
 			(start -2.3 -1.15)
@@ -14382,7 +13918,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0)
+			(at -1.475 0 180)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
@@ -14391,7 +13927,7 @@
 			(uuid "c8eb8269-ffb4-4c15-beba-b050e93d16ca")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0)
+			(at 1.475 0 180)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
@@ -14415,7 +13951,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "84777471-674b-4210-9fbc-7c6843ea261d")
-		(at 61.335 135.89)
+		(at 90.035 65.04)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D13"
@@ -14515,6 +14051,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/fec822d8-41d7-4411-9f20-3497e5b72a7d")
@@ -15357,7 +14896,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "87c5f832-4231-4d47-af5e-3537834dbddf")
-		(at 58.28 139.87)
+		(at 86.98 67.03)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D9"
@@ -15457,6 +14996,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/bd463cef-fd47-4b88-8d8b-65284c33e9d2")
@@ -16766,7 +16308,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "8e06dc66-b464-4f94-9e22-527c4358af63")
-		(at 27.7 136.92)
+		(at 49.69 45.48)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -16869,7 +16411,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "9113f63b-a266-478b-b7bf-fe86bdb17779")
-		(at 60.63 127.28)
+		(at 68.14 75.77)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -16970,6 +16512,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Servo")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4bee82bf-0211-4274-bbd6-fbac84f6330e")
 		(sheetname "/")
@@ -17062,7 +16607,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "911872d4-bebf-4085-b1d9-30c7216a6553")
-		(at 55.225 141.86)
+		(at 83.925 71.01)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D4"
@@ -17162,6 +16707,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/91876dc8-7aed-4490-994b-b779444cd05c")
@@ -17712,113 +17260,10 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "92a48b99-ae29-47d9-871b-5ff646733cce")
-		(at 35.8 145.02)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP11"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "834585a5-6f1f-49e2-9e09-7e5e84acf2ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "51cb12fc-d5f5-4149-a96d-09a0581cfbb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01313eae-b785-4ec8-b4d5-fed4be35f431")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf129619-a30b-4ab5-8a0f-ea5dfb19d8fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/3643b873-4b10-4c1d-ad80-0f855104c7ec")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "55d44e21-d9fe-43d1-a527-6a5cc6b4bf64")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "4ddd9540-6226-489f-b96b-c43244428306")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "407a470a-f199-4edb-880b-ae96bc79035a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "73907ebf-7cf8-45bd-8b85-f08ebbf9cbca")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "94084585-de5f-47fe-b6fb-ec6fc18cdd0d")
-		(at 61.335 141.86)
+		(at 90.035 69.02)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D19"
@@ -17918,6 +17363,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/d24be538-20cb-44fa-a700-eaca293e4de6")
@@ -20385,109 +19833,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "a7f781d9-9bb0-4012-97f8-08d2f36a63c0")
-		(at 39.85 140.97)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP14"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "d4f143da-2fc0-4194-b3fa-4d5937bb3c58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "7e763eb9-460f-42db-9d3b-9a7e0d7a5709")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d71f16e-86db-4e24-9121-61ceea7fae60")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3ed61de-5ba7-4f1c-965b-84c4e3e74c95")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/8f9e1145-2774-4893-9f64-08f267797110")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "c3700a33-2a07-4542-8078-dfe89cacd274")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7f37c426-1df0-4a22-a3a9-8797b674f5f1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "5e5b6d2d-b7fc-4b6c-986f-4304a350b5f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "dd8687ca-0978-40cf-be3b-7f3632818c70")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ab3bb0b9-8f10-4254-9956-bcae381098a1")
@@ -20683,212 +20028,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "ab65b2c2-39d1-4f80-8180-04ecc22ff570")
-		(at 27.7 149.07)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP4"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "db544b28-72be-4fc5-a5b8-0641c3e1d256")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "98198d9e-c1ac-4d56-957f-adb63566f7dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b03319e6-176b-4976-965a-9c10f3a5580d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd149c57-4eeb-40e5-97dd-a5a58b3aa082")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a6d1f411-9d2c-4983-9b46-c8e79a94536a")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "105197a8-4ab1-4d3b-b5b1-1ce24df2d64b")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c1a44c6e-177e-463e-a19d-18b50f557f6a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "80ded7c8-3f6e-4df2-ba6e-b9e8a867ce13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "04e350d8-35d8-4686-b363-deba24c38743")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "ad092f1e-6f8d-45ab-b168-dfbf02fcb630")
-		(at 31.75 136.92)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP5"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "470f55f1-4948-4805-b838-ffd7cc9ed3a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "c94b9e3f-9669-4d6a-a549-dff553c84c27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d57b3595-6b99-4d53-83aa-87110637ab27")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b127a06d-3aa8-41d7-b338-83fecaa88c67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5e51fd82-de09-466c-9e4f-6a89a17871dc")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "06070da7-139d-4b32-89e8-5d30ec218e92")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "e5e89544-b880-4c1a-ad38-8f78de9882e7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "1da90414-0bef-42f2-8b8d-a8d078a6a64e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "af1fcb4d-c7ca-40cf-9e45-a7cc9d7c2aca")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -21089,7 +20228,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "af233436-202a-424c-aef7-06d069360ce0")
-		(at 32.56 127.52)
+		(at 60.05 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M9"
@@ -21137,6 +20276,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/55e41f60-f546-42e2-a4a5-8cbbc0ded855")
@@ -21768,7 +20910,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "b35b6c28-fc25-4448-975a-9a6e66ba781d")
-		(at 66.28 123.93)
+		(at 73.79 72.42)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -21868,6 +21010,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6c1cbed4-12e2-4b1f-8408-de3f7fc059e6")
@@ -22614,109 +21759,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "bc03cc25-f3fe-4e2b-83ca-86acc79c58e7")
-		(at 31.75 140.97)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP6"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "1573821a-8ea3-4fc0-9fb6-42f8d4824226")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "7ed403ae-ef88-4c78-9c72-cbb6f3517c5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a816d5da-c1ab-4f40-abfc-93d102af14b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3daf5d89-2531-47fd-96ed-4803966875fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a4e94f05-1db9-4a66-80e7-9df0169246b1")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "19f74f7a-3141-4bad-b467-222dd268ad0e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d16edf33-565c-4ae0-8d51-0eb16844f268")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "0755d371-9d25-4c18-b271-7257d4d7cfbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f00137b4-8d31-4baf-b45c-ee66d949ec1e")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
@@ -23938,7 +22980,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c5512f66-fe55-4781-9e3b-69211db811ef")
-		(at 32.56 117.85)
+		(at 61.25 33.46)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M2"
@@ -23986,6 +23028,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/52037de5-e26b-44d9-9c1b-204533ec9275")
@@ -24173,7 +23218,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ca608621-69ba-4645-9058-c78d8c2acb16")
-		(at 46.33 127.52)
+		(at 73.82 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M12"
@@ -24221,6 +23266,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/d448dbd6-4d2f-4248-ba92-59fca46f7aeb")
@@ -24604,7 +23652,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ccaf01f8-c3c8-474b-b889-a7314919d9dd")
-		(at 55.51 117.85)
+		(at 83 47)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M7"
@@ -24652,6 +23700,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/810d533b-2fd0-4d36-9d53-69fcb1c7367e")
@@ -24835,109 +23886,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "ceed3b2a-88d9-4144-8b12-18c9fc4b2906")
-		(at 27.7 140.97)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP2"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "427e571b-a8ea-43d3-af5b-9b770e897cf7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "c83d4b79-4622-45b1-8541-c62ef6e73852")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "171ba8f0-1095-4919-9a85-86b2916a07f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b654417-c0af-4fd4-b666-3871a520ac6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f67df5aa-3121-442b-8013-07d4f461cd92")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d4b1317d-1dad-4076-9cd3-ffcd838abc8e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "83083b15-ee68-4446-ba80-11637b731658")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "e3b5c948-737b-4d3a-ac8a-b79087695227")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "04939c65-8a53-4cdb-8475-e0672d393f95")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -25313,7 +24261,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "d11a9739-697b-49b9-941a-30747e11ca1b")
-		(at 61.335 143.85)
+		(at 90.035 71.01)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D20"
@@ -25413,6 +24361,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/dcd5f6ba-0b8b-4d5a-98a9-460422b64143")
@@ -25577,7 +24528,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "d145642d-94cd-4abb-aebf-fff948e3a3c6")
-		(at 55.225 135.89)
+		(at 49.325 48.5)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D1"
@@ -25841,7 +24792,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "d17c5dff-e4b0-414f-9597-24eca9a51a8d")
-		(at 58.28 143.85)
+		(at 86.98 71.01)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D11"
@@ -25941,6 +24892,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/bd1d9a03-b808-4a40-a0ff-1562c012a762")
@@ -26105,7 +25059,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d222e546-4676-4289-9646-3d72e1030ab0")
-		(at 37.15 127.52)
+		(at 64.64 56.67)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M10"
@@ -26153,6 +25107,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/fad02ab5-104f-45a4-85c8-a9b0122f36b0")
@@ -26645,11 +25602,11 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "d6d5d8b2-cf1a-459f-9571-6720d011052e")
-		(at 60.63 123.93)
+		(at 72.25 33.75 90)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.85 0)
+			(at 0 -1.85 90)
 			(layer "F.SilkS")
 			(uuid "bd5e6895-703c-4ddd-87f5-33f04e1cdc2e")
 			(effects
@@ -26660,7 +25617,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.85 0)
+			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "e5a269a3-cbdd-4de9-8551-65aa704cc34d")
 			(effects
@@ -26671,7 +25628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "351c1f53-7e7e-4e0d-bcc5-23aa7d6f9f44")
@@ -26683,7 +25640,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3a33ce1-ebce-4edf-a672-2e436549ca00")
@@ -26695,7 +25652,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26708,7 +25665,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C96123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26721,7 +25678,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26734,7 +25691,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31A476MPHNNNE"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26745,6 +25702,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/376a51d2-5028-48ec-bfd0-9d35fb51c7c3")
@@ -26794,7 +25754,7 @@
 			(uuid "7b6f8e8d-e959-4b18-8458-33ccac21afb1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "0991bfd8-2e5b-4613-b344-6d7ef0a9ff7f")
 			(effects
@@ -26805,7 +25765,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0)
+			(at -1.475 0 90)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
@@ -26814,7 +25774,7 @@
 			(uuid "1dcbfc57-2329-4d14-948b-00b42ec9a40c")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0)
+			(at 1.475 0 90)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
@@ -27470,7 +26430,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "dd05da28-0af8-4261-947e-00e507e2851a")
-		(at 55.225 137.88)
+		(at 61.25 41)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D2"
@@ -27570,6 +26530,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/3ec188f9-9b12-419c-aa1e-d8f1ee43bfff")
@@ -27734,7 +26697,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "de1329d5-b81b-42a4-9322-1f26fbb2916b")
-		(at 60.63 117.23)
+		(at 50.49 41.78)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -28123,7 +27086,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "e37f2d59-c4c0-433c-b0d3-767a1f81aaee")
-		(at 58.28 141.86)
+		(at 86.98 69.02)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D10"
@@ -28223,6 +27186,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f0a6e6bd-1487-4467-aea7-f5a7e1d3befa")
@@ -28387,7 +27353,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "e3c0bb72-fd78-4bad-a862-078f16e36e39")
-		(at 66.28 117.23)
+		(at 73.79 65.72)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -28488,6 +27454,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Servo")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b2cd184f-e267-482b-8f7c-285f02555e22")
 		(sheetname "/")
@@ -28580,7 +27549,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e5284a42-92d9-4cfa-ae9b-9a0aa9c14087")
-		(at 46.33 117.85)
+		(at 73.82 47)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M5"
@@ -28628,6 +27597,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/178ea933-3ae2-417a-b835-f38878cb4f4c")
@@ -28812,113 +27784,10 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "e565229b-d426-4a01-ac97-69b9904ddd3c")
-		(at 35.8 136.92)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP9"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "0dc505a8-66d9-4c8d-bf2c-0059ad500ab8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "c9f6e694-9d48-4789-ab25-4dc8d62a225f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7d29e64-3e1a-499a-b0e8-1e3ff3ed56a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7817d1f2-672f-4f2c-be01-4b267e7d09c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/4b893d83-d2c0-4fce-9e5f-e81b755bb8c5")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "62df157b-68d9-4d93-b31b-2b660bd6cdc7")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a12c80b4-8c97-4646-bc7e-b33bbeb03b3d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "a18fb6b7-9f93-4624-9e8f-9640e2397b39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8acea905-4913-4204-9896-4d3d8e57eff9")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "e68023ff-ef4e-4a53-a17b-f8f4556c94a3")
-		(at 60.63 130.63)
+		(at 68.14 79.12)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -29018,6 +27887,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4433f34b-b1c0-4f31-a21c-68cecb041543")
@@ -29807,109 +28679,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
-		(layer "F.Cu")
-		(uuid "e98ff7f4-9636-4ffb-94dc-0a945d226fa8")
-		(at 35.8 149.07)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "TP12"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "e8b8a0e9-98b1-44a2-b2ae-90f774233df1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "4049d41f-00d5-49ce-a7d0-2903c1812bf2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ef6b7ac-cee2-473b-ae86-0766b0bdad11")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5e4898f-ebcf-4f47-bd1d-caab9dc4bdbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a00228eb-b6b1-4102-8b1c-595e3f34fdbe")
-		(sheetname "/")
-		(sheetfile "valrob-carte-actionneurs-cdf-1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "c69e393a-14cc-4544-a7a1-18886dd63aca")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "bbcce835-b9c4-497e-a1e8-f3dd870245f8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "c9d9b6b7-4bfe-45dd-b5ee-81dca1620e59")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 2 2)
-			(layers "F.Cu" "F.Mask")
-			(net 88 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "72590bca-0585-4369-a0de-c21777ebe9e5")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ebf7193e-b372-4f58-9dfe-944fc65ecc0e")
@@ -30109,7 +28878,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ed2dc18c-146b-4c2c-9ab6-af5d4919e491")
-		(at 37.15 117.85)
+		(at 67.5 33.96)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M3"
@@ -30157,6 +28926,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/0447334f-e5be-46e4-8449-97026eb210ef")
@@ -30537,7 +29309,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "f5f294b7-2b61-4f3b-9f91-cd0d5e6e41e5")
-		(at 71.93 127.28)
+		(at 79.44 75.77)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -30637,6 +29409,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/cc3a4234-dab0-4f57-98ed-a49d2bfec9e9")
@@ -30987,7 +29762,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fc64826f-9972-4366-bf3b-b698c42a30f5")
-		(at 41.74 117.85)
+		(at 69.23 47)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "M4"
@@ -31035,6 +29810,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Servo")
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/e5264a18-0c5d-4954-8aff-042ae87bbec4")

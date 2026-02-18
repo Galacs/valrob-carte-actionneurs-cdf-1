@@ -11833,37 +11833,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 35.56 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "222781d7-444d-4746-9809-699d909bc6fe")
-		(property "Netclass" ""
-			(at -38.1 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Class" "Servo"
-			(at 36.2585 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 69.85 34.29 0)
 		(fields_autoplaced yes)
 		(effects
