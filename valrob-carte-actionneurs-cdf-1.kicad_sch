@@ -6251,6 +6251,12 @@
 		(uuid "3d3ed500-c8e3-422e-bf85-c3e4a3770199")
 	)
 	(junction
+		(at 66.04 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41815171-03c5-4dff-b3fe-640e9381d802")
+	)
+	(junction
 		(at 19.05 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6533,6 +6539,12 @@
 		(uuid "a61f35c4-2240-42d7-997e-e980a257ef25")
 	)
 	(junction
+		(at 44.45 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7db46eb-885f-4d1d-883b-90e9567b2636")
+	)
+	(junction
 		(at 22.86 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6751,10 +6763,6 @@
 		(uuid "26df430c-e63b-45d3-9bb2-aae4091c9ef7")
 	)
 	(no_connect
-		(at 248.92 74.93)
-		(uuid "29651b30-3ec9-47c2-b647-2d374ff56f73")
-	)
-	(no_connect
 		(at 182.88 110.49)
 		(uuid "32c46220-492e-496b-8666-9a8798d80bda")
 	)
@@ -6811,16 +6819,8 @@
 		(uuid "ad735155-f5a1-4575-b27c-9619485996f9")
 	)
 	(no_connect
-		(at 182.88 90.17)
-		(uuid "af0bb858-a1eb-4e0b-93b2-b6cdc37c436e")
-	)
-	(no_connect
 		(at 182.88 72.39)
 		(uuid "cb4d73b2-26fb-49f4-8fa6-25f508e1d8c4")
-	)
-	(no_connect
-		(at 182.88 87.63)
-		(uuid "ce02de4f-b323-42e1-bd7a-06b0143c2ea8")
 	)
 	(no_connect
 		(at 182.88 123.19)
@@ -8620,6 +8620,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e401035-3576-4a68-83d9-d458db67c27f")
+	)
+	(wire
+		(pts
 			(xy 57.15 74.93) (xy 60.96 74.93)
 		)
 		(stroke
@@ -9830,7 +9840,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 186.69) (xy 45.72 186.69)
+			(xy 41.91 186.69) (xy 44.45 186.69)
 		)
 		(stroke
 			(width 0)
@@ -10160,6 +10170,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 186.69) (xy 45.72 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15a6d7d-db44-45d9-a87b-a19ea735c88a")
+	)
+	(wire
+		(pts
 			(xy 242.57 147.32) (xy 237.49 147.32)
 		)
 		(stroke
@@ -10457,6 +10477,16 @@
 			(type default)
 		)
 		(uuid "d89f78a3-0c4e-4b02-987e-2e9837d466f2")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a883ea-9a5c-48e0-bed8-ab3f6d332704")
 	)
 	(wire
 		(pts
@@ -10760,7 +10790,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 160.02) (xy 64.77 160.02)
+			(xy 67.31 160.02) (xy 66.04 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10930,6 +10960,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 74.93) (xy 254 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5d719f-78a8-4875-bb05-ecf1fdbd0b99")
+	)
+	(wire
+		(pts
 			(xy 22.86 85.09) (xy 31.75 85.09)
 		)
 		(stroke
@@ -11047,6 +11087,16 @@
 			(type default)
 		)
 		(uuid "f5cd77cc-df54-4da1-9ec0-17427f67323c")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 64.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a56935-219a-4b33-ab4a-3c72e66e5f69")
 	)
 	(wire
 		(pts
@@ -11548,6 +11598,16 @@
 		)
 		(uuid "76380d49-cb4c-44f4-a568-deb9f8431c3b")
 	)
+	(label "RGB"
+		(at 254 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "779d9c2a-0830-482f-b3f4-f53641d9c697")
+	)
 	(label "RF_ANT"
 		(at 143.51 35.56 0)
 		(effects
@@ -11667,6 +11727,16 @@
 			(justify right bottom)
 		)
 		(uuid "c9909bc5-525b-4926-9c37-4c14a0156899")
+	)
+	(label "CAN_TX"
+		(at 175.26 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca61fdd3-1820-4bb5-bc6c-bd273bae1e55")
 	)
 	(label "XTAL_N"
 		(at 175.26 77.47 0)
@@ -11827,6 +11897,16 @@
 			(justify right bottom)
 		)
 		(uuid "fb790b35-a87e-4c00-9c76-f705a8769dbc")
+	)
+	(label "CAN_RX"
+		(at 175.26 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff2c3f32-62aa-4079-bb30-faa46b3855f9")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
@@ -15197,6 +15277,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e39616-421d-49c7-8e79-fa38225a700e")
+		(property "Reference" "#FLG04"
+			(at 44.45 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cdd8b69-d92b-4d50-a188-94eadb5328b2")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_Servo")
 		(at 107.95 41.91 0)
 		(unit 1)
@@ -16053,6 +16200,73 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4647ff20-90a8-42da-97ce-ea727cfad102")
+		(property "Reference" "#FLG01"
+			(at 66.04 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "facf1605-39ac-4422-b060-5248c269eaf5")
+		)
+		(instances
+			(project ""
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

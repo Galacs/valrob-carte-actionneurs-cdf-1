@@ -1235,6 +1235,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Slew Rate\n2A limit for 500uF load\n-> 4V/ms\n-> Cdvdt = 500pF\n(BOM consolidation) For 1n -> SR = 2V/ms\n\nIlim\n->Ilim=5.4A\n->I=Vilm(µV)/(180*620)"
 		(exclude_from_sim no)
@@ -1318,6 +1419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b59508-6dca-400f-b29c-7fd7f2a08d00")
+	)
+	(junction
+		(at 110.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b2ecb5-6f49-4c40-b780-679fd8742e46")
 	)
 	(no_connect
 		(at 133.35 88.9)
@@ -1525,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 83.82) (xy 119.38 83.82)
+			(xy 107.95 83.82) (xy 110.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1812,6 +1919,16 @@
 			(type default)
 		)
 		(uuid "ee81b820-80d7-426b-9d41-6b9b37d22d76")
+	)
+	(wire
+		(pts
+			(xy 110.49 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3e2151-8395-40ed-9aff-abad382a4309")
 	)
 	(wire
 		(pts
@@ -4157,6 +4274,77 @@
 				)
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa94ead0-1fa0-481b-a6f7-7686313434bb")
+		(property "Reference" "#FLG02"
+			(at 110.49 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57c9a748-3aae-41e9-a10c-72577be9b8fe")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
+					(reference "#FLG03")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
