@@ -456,8 +456,12 @@
       "Root"
     ],
     [
-      "48973bbb-a015-4db7-bad7-59f32d4f7f80",
-      "Connectors"
+      "fbcc9a91-3664-4a13-b680-428e68f2e4f4",
+      "PWR Input1"
+    ],
+    [
+      "893ee43e-1e1d-4b28-9f3e-05e35ba62aed",
+      "PWR Input"
     ]
   ],
   "text_variables": {}

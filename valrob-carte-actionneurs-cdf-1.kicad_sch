@@ -4127,6 +4127,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers
@@ -4605,6 +4730,18 @@
 		(uuid 844d36b4-b41d-4ffb-89ea-6a3b0ec58fc0)
 	)
 	(rectangle
+		(start 16.51 82.55)
+		(end 62.23 115.57)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aeb005ff-5a3b-4443-b56d-ca3c2fc66ace)
+	)
+	(rectangle
 		(start 15.24 173.99)
 		(end 46.99 195.58)
 		(stroke
@@ -4700,6 +4837,18 @@
 		)
 		(uuid "74382aea-fee7-4633-9eff-caea8b8738b9")
 	)
+	(text "+5V PWR inputs"
+		(exclude_from_sim no)
+		(at 49.53 112.522 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "7cac21ce-51ff-4f3f-9c00-02e580fb64b2")
+	)
 	(text "LED indicators"
 		(exclude_from_sim no)
 		(at 124.714 163.576 0)
@@ -4765,6 +4914,12 @@
 		(uuid "1359c43c-4363-4743-bc42-336bb6d4c87c")
 	)
 	(junction
+		(at 45.72 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16abc628-aaad-4e5d-86f4-a749cf178844")
+	)
+	(junction
 		(at 25.4 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4793,6 +4948,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50cb5d26-f18a-45f9-b296-8692df70f7c1")
+	)
+	(junction
+		(at 17.78 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "547143a0-f49b-4efe-94c4-64a50e42b489")
 	)
 	(junction
 		(at 21.59 30.48)
@@ -4855,6 +5016,12 @@
 		(uuid "926069ea-96cb-446c-bccf-b8534fbc094a")
 	)
 	(junction
+		(at 35.56 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96756486-ec30-4345-a930-aecd4263e844")
+	)
+	(junction
 		(at 91.44 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4877,6 +5044,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a61f35c4-2240-42d7-997e-e980a257ef25")
+	)
+	(junction
+		(at 35.56 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abdfb0be-5af0-48de-911b-24fdd3886846")
 	)
 	(junction
 		(at 205.74 25.4)
@@ -5332,6 +5505,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 105.41) (xy 31.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40268982-ccc5-450a-b0f1-7b6dfd054a59")
+	)
+	(wire
+		(pts
 			(xy 215.9 55.88) (xy 215.9 38.1)
 		)
 		(stroke
@@ -5439,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "4ced9605-3104-4d1c-8f94-c63712828542")
+	)
+	(wire
+		(pts
+			(xy 17.78 19.05) (xy 17.78 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5782c7-f86f-4030-b738-0c41f61e6820")
 	)
 	(wire
 		(pts
@@ -5642,6 +5835,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 105.41) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62537fcb-3f36-4333-a2f5-0d0c82422b66")
+	)
+	(wire
+		(pts
 			(xy 57.15 129.54) (xy 62.23 129.54)
 		)
 		(stroke
@@ -5669,6 +5872,26 @@
 			(type default)
 		)
 		(uuid "696a27e6-ffbd-4e8f-bcd3-36a69428a746")
+	)
+	(wire
+		(pts
+			(xy 36.83 91.44) (xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2d5f23-8791-4df3-bf98-b5a9343a57fb")
+	)
+	(wire
+		(pts
+			(xy 35.56 90.17) (xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca85b26-86b5-48dc-8495-bd2ce33aafc0")
 	)
 	(wire
 		(pts
@@ -5872,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 91.44) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2ba9be-11ac-4a3a-bc3a-38728df28b3c")
+	)
+	(wire
+		(pts
 			(xy 57.15 138.43) (xy 57.15 142.24)
 		)
 		(stroke
@@ -6019,6 +6252,16 @@
 			(type default)
 		)
 		(uuid "9da1f40d-c9c8-4336-8680-86536cdf8a7e")
+	)
+	(wire
+		(pts
+			(xy 44.45 105.41) (xy 45.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1af4c80-82d2-440e-bd14-3c1a463aca12")
 	)
 	(wire
 		(pts
@@ -6282,6 +6525,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e4ab1a-50a9-4967-977d-7812eaf57a24")
+	)
+	(wire
+		(pts
 			(xy 77.47 165.1) (xy 76.2 165.1)
 		)
 		(stroke
@@ -6472,6 +6725,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 90.17) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de07bdb7-db73-4ca3-9457-bf7762fd0bc3")
+	)
+	(wire
+		(pts
 			(xy 76.2 172.72) (xy 78.74 172.72)
 		)
 		(stroke
@@ -6572,6 +6835,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 105.41) (xy 35.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaad09f6-acfe-489d-a0f3-d54efed650f6")
+	)
+	(wire
+		(pts
 			(xy 49.53 132.08) (xy 52.07 132.08)
 		)
 		(stroke
@@ -6579,6 +6852,16 @@
 			(type default)
 		)
 		(uuid "ef0fb925-9ff9-4c2d-a7ab-ea405b6d3f33")
+	)
+	(wire
+		(pts
+			(xy 35.56 104.14) (xy 35.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9254b1-f261-41ab-9e04-660e07fab83a")
 	)
 	(wire
 		(pts
@@ -7146,6 +7429,111 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 40.64 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0529db92-6cd3-421e-9a6f-bc10ee445683")
+		(property "Reference" "D9"
+			(at 40.894 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 40.9575 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microdiode Semiconductor (MDD)"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SS54"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f377425-80fb-46c3-859b-302a0df8b1ef")
+		)
+		(pin "1"
+			(uuid "58228ed5-40fe-41b3-9b87-31c982732f70")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8505,6 +8893,71 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 35.56 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "295ec58c-aafd-471f-906d-58094f287e8d")
+		(property "Reference" "#PWR035"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VB"
+			(at 35.56 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d626f6e4-2944-4304-b4a4-5ed3c531b4c0")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10066,6 +10519,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 35.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710ac5d2-048a-4e5d-9103-6045349c0002")
+		(property "Reference" "#PWR032"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eb93f9b-6f1d-4578-ae8e-c57a88deb888")
+		)
+		(instances
+			(project ""
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 53.34 0)
 		(unit 1)
@@ -10537,6 +11056,111 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 40.64 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81669bdc-7231-438c-a430-aead1553fcc4")
+		(property "Reference" "D10"
+			(at 40.894 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 40.9575 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microdiode Semiconductor (MDD)"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SS54"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69ca818b-23fc-4a4f-8082-5fdab425887b")
+		)
+		(pin "1"
+			(uuid "c415ffb4-6021-4ff5-82cc-4cc96f5296a2")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -13380,6 +14004,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 17.78 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8bb79bc-fe16-4d3b-b975-a3d4a88baccd")
+		(property "Reference" "#PWR039"
+			(at 17.78 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 17.78 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 17.78 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "679dab67-6d3b-48ce-9457-e5febbc1101d")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 176.53 270)
 		(unit 1)
@@ -13696,7 +14385,7 @@
 		(dnp no)
 		(uuid "df126ad2-fcff-479d-898b-0a09e0d28973")
 		(property "Reference" "C3"
-			(at 19.812 16.256 0)
+			(at 23.114 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,7 +14394,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 19.812 18.796 0)
+			(at 23.114 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14095,6 +14784,72 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea6e36e3-0c6e-441f-b2f5-5f35c71b7385")
+		(property "Reference" "#PWR038"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MCU"
+			(at 45.212 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2142a213-7f20-49ae-81ef-403208ac20de")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14688,8 +15443,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 90.17)
-		(size 12.7 8.89)
+		(at 19.05 88.9)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14702,9 +15457,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "48973bbb-a015-4db7-bad7-59f32d4f7f80")
-		(property "Sheetname" "Connectors"
-			(at 63.5 89.4584 0)
+		(uuid "893ee43e-1e1d-4b28-9f3e-05e35ba62aed")
+		(property "Sheetname" "PWR Input"
+			(at 19.05 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,8 +15467,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
-			(at 63.5 99.6446 0)
+		(property "Sheetfile" "pwr-input.kicad_sch"
+			(at 19.05 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14723,18 +15478,18 @@
 			)
 		)
 		(pin "ILM" output
-			(at 63.5 92.71 180)
-			(uuid "43e6ab6c-8fe9-49a6-add3-04b4518420af")
+			(at 31.75 93.98 0)
+			(uuid "b8e32fe3-0f2b-4824-bb68-6b391ee08e41")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "OUT" output
-			(at 76.2 92.71 0)
-			(uuid "a6837e25-2dbf-46a8-8274-52544d0ce12c")
+			(at 31.75 91.44 0)
+			(uuid "e38bef51-aabd-4df2-9c2c-f42f78bc910d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14743,13 +15498,86 @@
 			)
 		)
 		(pin "PG" output
-			(at 63.5 96.52 180)
-			(uuid "e0389446-72c3-4f98-a09b-7a468ce9b177")
+			(at 31.75 96.52 0)
+			(uuid "3026123c-c7b8-4c90-baff-eb1b0c7c72a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 102.87)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbcc9a91-3664-4a13-b680-428e68f2e4f4")
+		(property "Sheetname" "PWR Input1"
+			(at 19.05 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr-input.kicad_sch"
+			(at 19.05 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ILM" output
+			(at 31.75 107.95 0)
+			(uuid "01260c36-d777-470d-a04c-e6f84d1ad503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" output
+			(at 31.75 105.41 0)
+			(uuid "b6206e8e-fce1-4c8b-b49d-cd1eee109dd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG" output
+			(at 31.75 110.49 0)
+			(uuid "0ce818ac-01d0-47bc-a4c9-1dd26f9b303e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

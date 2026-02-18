@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a0f83482-229a-4589-a105-63c08eb7f181")
+	(uuid "f98424f6-e375-4ad5-b90b-0f11d1649697")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -1238,648 +1238,648 @@
 	)
 	(text "Slew Rate\n2A limit for 500uF load\n-> 4V/ms\n-> Cdvdt = 500pF\n(BOM consolidation) For 1n -> SR = 2V/ms\n\nIlim\n->Ilim=5.4A\n->I=Vilm(µV)/(180*620)"
 		(exclude_from_sim no)
-		(at 192.532 100.838 0)
+		(at 190.246 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8aef4ade-d7b6-4e25-aa0c-a82062f1de11")
+		(uuid "e87c7182-4bcc-48b5-8ea5-1ab1ea6583dd")
 	)
 	(junction
-		(at 138.43 107.95)
+		(at 163.83 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1779ab63-6bf1-4c85-a8d0-e39faeda5c14")
+		(uuid "13c41689-21c7-403e-85df-c516577ecac0")
 	)
 	(junction
-		(at 162.56 82.55)
+		(at 181.61 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26732b88-c605-4254-85cd-bd3fc6507aec")
+		(uuid "2e7a48eb-ae2f-4aa3-8efc-02b80a869e12")
 	)
 	(junction
-		(at 133.35 101.6)
+		(at 128.27 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62705fbd-6606-496c-a58e-0308ad9a5705")
+		(uuid "356c11ad-003d-4121-b57c-524fae557156")
 	)
 	(junction
-		(at 100.33 82.55)
+		(at 152.4 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b69772d-9256-4769-8b06-2ee5f315b851")
+		(uuid "463c177c-5f12-427f-9ef8-00ad45de19ca")
 	)
 	(junction
-		(at 144.78 92.71)
+		(at 189.23 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8770adb5-b871-4933-8ca3-6acc023e1b25")
+		(uuid "486baa21-9b97-49eb-af9f-8ed4805efed2")
 	)
 	(junction
-		(at 144.78 82.55)
+		(at 128.27 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0fe47fb-6057-481b-a95d-0847da1d8922")
+		(uuid "874d5e9d-08d8-4eef-8318-caa74c9f587c")
 	)
 	(junction
-		(at 166.37 92.71)
+		(at 157.48 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac8797b5-84cf-434f-9fe9-b5e3343a6e67")
+		(uuid "c6b0b23e-8f41-44ba-a5a9-d89f0b14396f")
 	)
 	(junction
-		(at 109.22 82.55)
+		(at 185.42 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af817e3f-6a53-493a-8dac-8f8d451b9782")
+		(uuid "d0fec2e2-2857-42c2-a3cd-d85ded9c1bb9")
 	)
 	(junction
-		(at 109.22 92.71)
+		(at 144.78 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2836622-43e3-4b56-9670-b37f1b101f69")
+		(uuid "e04e8204-e6df-402f-ba06-f3b8f5392120")
 	)
 	(junction
-		(at 138.43 102.87)
+		(at 163.83 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b39ee05a-37bb-486c-b5f8-fc7dd6c084c8")
+		(uuid "e244707b-f8fe-4762-ae3c-fdd0190b1103")
 	)
 	(junction
-		(at 170.18 82.55)
+		(at 119.38 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db61913e-288d-4168-968a-11ed76535dd6")
+		(uuid "e30a8fb0-7344-4a6e-9ec4-7d603879d6aa")
 	)
 	(junction
-		(at 125.73 110.49)
+		(at 157.48 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7090ad7-bc43-403c-88b2-c4af0734ff88")
+		(uuid "e3b59508-6dca-400f-b29c-7fd7f2a08d00")
 	)
 	(no_connect
-		(at 114.3 87.63)
-		(uuid "9b489b40-55e9-4aa7-9250-9e355055172d")
+		(at 133.35 88.9)
+		(uuid "9351a94d-5286-4ba3-9c72-9c4a87da2fd2")
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 109.22 92.71)
+			(xy 142.24 111.76) (xy 142.24 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "061eebff-44bc-4e4b-a5ce-7b3cbc319a1c")
+		(uuid "07dc191e-418a-48de-a0fc-5a2ac983f15e")
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 148.59 107.95)
+			(xy 189.23 93.98) (xy 189.23 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0703b6b0-4169-4a36-abfd-fd13aed01cb5")
+		(uuid "0d518a0b-1705-49b6-8565-66c553eaea2d")
 	)
 	(wire
 		(pts
-			(xy 162.56 82.55) (xy 170.18 82.55)
+			(xy 189.23 85.09) (xy 189.23 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0827d221-dbe2-4fab-84a8-c8e57270ddb0")
+		(uuid "0eafcffd-8201-488f-aaee-8e5474a6fb53")
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 125.73 110.49)
+			(xy 128.27 92.71) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b3a4eda-7ac4-440d-a233-6fa443e05edf")
+		(uuid "0f1eb95d-ac97-4e8e-aae5-e387e1c587e7")
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 139.7 107.95)
+			(xy 128.27 83.82) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b45d4eb-76d2-4b59-94be-9c07407a2267")
+		(uuid "188c6a4e-07ea-49a5-a974-63c24bc409bb")
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 166.37 93.98)
+			(xy 181.61 92.71) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b65c2be-b5b6-4c67-89fa-bf8778666c69")
+		(uuid "1be314e2-27f3-4677-9e4d-68a5d8c1bdce")
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 135.89 101.6)
+			(xy 128.27 95.25) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17b47bc9-5ec6-4597-bf09-c6bbd9e25e30")
+		(uuid "1c1ce7bc-c74f-495b-b9d4-737d419407a3")
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 143.51 82.55)
+			(xy 152.4 114.3) (xy 152.4 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "190434ff-20d7-43da-b475-5a185ff4b7f3")
+		(uuid "207be6b6-6a4e-4ced-918e-967eeec0c747")
 	)
 	(wire
 		(pts
-			(xy 138.43 100.33) (xy 138.43 102.87)
+			(xy 162.56 93.98) (xy 163.83 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f2c3b05-cfcd-4d63-9960-90105a71bfe6")
+		(uuid "21446f22-282c-4e6e-a930-9dc9370a6557")
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 144.78 92.71)
+			(xy 147.32 111.76) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "278ae2dd-4aa3-4211-93c8-5876f24dd534")
+		(uuid "23742732-2046-442d-a63d-7ebc23fbcc2a")
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 162.56 92.71)
+			(xy 119.38 99.06) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "285f5492-9c3a-4a38-b356-37fc7eda1f52")
+		(uuid "271885ba-68ce-4fbd-9f02-3a76082071e5")
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 123.19 109.22)
+			(xy 181.61 93.98) (xy 185.42 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e5da9f1-b9c2-4d92-8531-abbabc6b6f6a")
+		(uuid "2ce44858-7940-47a4-86b3-fbf9a2446cb6")
 	)
 	(wire
 		(pts
-			(xy 170.18 92.71) (xy 170.18 91.44)
+			(xy 152.4 102.87) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30a53882-478a-4f7a-b4a9-52ddf8ea3520")
+		(uuid "30abef7c-c48d-4338-80a4-1bd10951edca")
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 125.73 110.49)
+			(xy 154.94 102.87) (xy 152.4 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "371dd74f-6795-40f7-a726-a9049330612d")
+		(uuid "32660fc6-dba0-48d2-bf26-763058ee9ae5")
 	)
 	(wire
 		(pts
-			(xy 162.56 82.55) (xy 162.56 83.82)
+			(xy 130.81 86.36) (xy 130.81 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "396ba90d-2799-4d8f-b126-c76dc9a52a22")
+		(uuid "3ac2c4b0-fdad-43be-a1ee-6f3a24ae9e8b")
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 109.22 102.87)
+			(xy 142.24 101.6) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b2c4a5d-a74f-42a4-94de-99cbf88681f7")
+		(uuid "4020dc07-5854-42b3-a110-0b09571c003e")
 	)
 	(wire
 		(pts
-			(xy 109.22 82.55) (xy 109.22 83.82)
+			(xy 163.83 83.82) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e2f48df-e80d-432b-9282-6f3d74f5dfed")
+		(uuid "44708c58-bbba-4a88-9edc-9d1a7232c555")
 	)
 	(wire
 		(pts
-			(xy 109.22 82.55) (xy 114.3 82.55)
+			(xy 128.27 102.87) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4171527f-e644-41fe-8af2-3f597ba4e76e")
+		(uuid "44fd766a-db09-4baa-9835-257721c03d08")
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 133.35 105.41)
+			(xy 163.83 93.98) (xy 163.83 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48b08616-df2f-484b-b192-745fc40b259e")
+		(uuid "46e72d5c-9507-4ee2-a665-4cc987be7e19")
 	)
 	(wire
 		(pts
-			(xy 100.33 82.55) (xy 109.22 82.55)
+			(xy 181.61 83.82) (xy 181.61 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a135c4e-e57d-482b-8509-bb02030dcfc1")
+		(uuid "4780cc11-d3df-4af1-b072-8c2ef1c2578e")
 	)
 	(wire
 		(pts
-			(xy 111.76 85.09) (xy 111.76 92.71)
+			(xy 107.95 83.82) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4af91068-95a1-4cd8-9ff5-e80cddf096e9")
+		(uuid "48236ea6-4b05-4f93-ac14-b25abd92c63f")
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 100.33 96.52)
+			(xy 185.42 93.98) (xy 185.42 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b81cafa-9eb9-4c75-9ba4-079cb2fe3ff7")
+		(uuid "5e94f294-f918-4bc0-b1ce-671bb3ebcc50")
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 90.17 85.09)
+			(xy 157.48 109.22) (xy 158.75 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "529c8b77-600f-4af0-8504-85f94bdbb7d1")
+		(uuid "60a1fee7-e831-4377-af57-50ba73383d6b")
 	)
 	(wire
 		(pts
-			(xy 170.18 82.55) (xy 173.99 82.55)
+			(xy 119.38 83.82) (xy 119.38 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61d1929d-db31-499b-989d-c75bdcb7c337")
+		(uuid "66f74d99-afaf-43c5-8ded-794b343cf18f")
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 162.56 82.55)
+			(xy 157.48 109.22) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "693f3bb3-9983-423a-b1ae-a800dbf95386")
+		(uuid "681fa657-8f2a-4d68-ae04-36e909e552a6")
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 144.78 92.71)
+			(xy 163.83 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f78de83-9b0f-4d34-947c-405f9b4f7f0a")
+		(uuid "6987b878-0a2f-4dda-b5d0-d0912afcac3b")
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 133.35 101.6)
+			(xy 157.48 104.14) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7af6afeb-8842-4e1d-8703-6ed5ba54e16d")
+		(uuid "6e5a4fb5-d2e7-418a-87fa-5ffffd1cafef")
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 148.59 107.95)
+			(xy 157.48 118.11) (xy 157.48 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b1277ba-0c9f-4fb0-ba1f-f7b3765e9e2a")
+		(uuid "7fdd9e80-8971-48a1-b278-39197d924c9b")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 113.03 95.25)
+			(xy 144.78 113.03) (xy 144.78 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83cb796a-4a2f-47db-a2d0-12e90e23d12e")
+		(uuid "83cffc4c-6f96-4b79-a0d2-b019167ea9da")
 	)
 	(wire
 		(pts
-			(xy 144.78 92.71) (xy 144.78 91.44)
+			(xy 128.27 83.82) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92bd626b-1c35-45c4-a3d6-322d1e41f257")
+		(uuid "867d315f-ceb7-476c-90f3-c50619021080")
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 111.76 85.09)
+			(xy 163.83 83.82) (xy 163.83 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94bb93ca-24c2-4713-971a-e497c72aee82")
+		(uuid "8de09f7e-7969-4c11-baa6-6ff643fb1918")
 	)
 	(wire
 		(pts
-			(xy 88.9 82.55) (xy 100.33 82.55)
+			(xy 158.75 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9513a7ad-ebae-46c3-8bf6-60b2be451abc")
+		(uuid "9141c6cc-fb1e-449c-99b7-3b220493d092")
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 123.19 101.6)
+			(xy 154.94 104.14) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aebc516-fdea-4f75-9811-93a314aa1d8c")
+		(uuid "a28e0016-6456-4d0d-8979-0fd0f7dd3c3b")
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 128.27 109.22)
+			(xy 167.64 106.68) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa7d5ae6-85f2-4646-9d7b-3a7eab5a44e5")
+		(uuid "a9ba35d8-9a2c-4f79-9745-881144f74cbf")
 	)
 	(wire
 		(pts
-			(xy 100.33 82.55) (xy 100.33 88.9)
+			(xy 132.08 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeccb1fd-ffb0-4da4-ab20-a8adafc5cbea")
+		(uuid "ab949149-62df-49d5-b355-aaa61adfe9c0")
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 92.71)
+			(xy 157.48 101.6) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b14679cd-4ba5-4ccd-a073-0d9270574571")
+		(uuid "b5c24688-6b0b-4e45-9824-57d06eff24d8")
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 138.43 109.22)
+			(xy 189.23 83.82) (xy 193.04 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b457e1e0-25d7-4777-b447-ae3f8af98110")
+		(uuid "b629ba66-317f-482c-af76-260ffb9b95ac")
 	)
 	(wire
 		(pts
-			(xy 144.78 101.6) (xy 144.78 102.87)
+			(xy 133.35 86.36) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4e398b6-d052-4b0b-9936-eb03691ebe39")
+		(uuid "bcf6ac22-a773-4c0e-9fcc-46b4acf557a4")
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 138.43 118.11)
+			(xy 152.4 101.6) (xy 152.4 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be0ec65a-3e3c-4def-b022-96f402948bbb")
+		(uuid "ce3e5d84-c11b-4cbe-ac27-9a64cd734b48")
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 144.78 83.82)
+			(xy 144.78 111.76) (xy 147.32 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c64b91c0-a24d-4bcf-a0dc-5a4c4dd5ccf1")
+		(uuid "cfda15dc-05ee-4d55-bb6f-bcefa556dda1")
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 128.27 110.49)
+			(xy 185.42 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6fa458f-c2af-4ad4-ba8c-75a5b1d3a57f")
+		(uuid "d11a7da5-38be-4773-af72-2aaf476e9095")
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 166.37 92.71)
+			(xy 132.08 97.79) (xy 132.08 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3f86e40-6233-4288-a873-2b20b9e435e1")
+		(uuid "dbd8e5d2-3050-4aa2-84b0-fbedafb41025")
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 133.35 101.6)
+			(xy 163.83 95.25) (xy 163.83 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d604598a-fe19-45c5-a3b1-b3873b3e27d0")
+		(uuid "df70836e-22b2-4c73-b4c8-bbd800191522")
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 114.3 95.25)
+			(xy 163.83 102.87) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dafb549e-f8bb-41bf-9c03-d5339f3b5964")
+		(uuid "e13e02e8-4293-4280-b7c7-4d5ed8ad9ba1")
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 138.43 107.95)
+			(xy 109.22 87.63) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1d78fb6-3f57-4eca-9f2c-e478e72bdb8d")
+		(uuid "e3868bb6-3ec7-4b35-86e0-0e77bbd9a87f")
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 170.18 82.55)
+			(xy 119.38 83.82) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6f5f88f-13fc-4c99-a608-3afa25364b8d")
+		(uuid "e882815a-009d-4da4-a4cd-cd67d7ee561e")
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 138.43 102.87)
+			(xy 166.37 109.22) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7a32836-93a3-4c38-b851-249e34ceae7e")
+		(uuid "e969f9d6-5d2a-4e32-9e10-fd2a7e1552ab")
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 133.35 114.3)
+			(xy 109.22 86.36) (xy 107.95 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e934a771-ddcf-4353-8e5a-ab02aeca744d")
+		(uuid "eb43040c-0f77-4290-b569-6da22d6ccf21")
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 88.9 85.09)
+			(xy 147.32 101.6) (xy 147.32 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb8b3932-817f-427c-8427-8f1cf5223e94")
+		(uuid "ee81b820-80d7-426b-9d41-6b9b37d22d76")
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 128.27 101.6)
+			(xy 130.81 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eed114d3-6472-456c-bb27-3afc829d926a")
+		(uuid "fa465610-139e-43a2-88ba-1ad845fdd6d7")
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 170.18 92.71)
+			(xy 181.61 83.82) (xy 189.23 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fba65857-212d-4e75-9941-a5510254212c")
+		(uuid "fbeb9d66-84d3-4a5e-874d-d013d37e4af8")
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 109.22 92.71)
+			(xy 142.24 111.76) (xy 144.78 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff9926ba-b7e7-4688-bb69-1c8ab62bee10")
-	)
-	(hierarchical_label "OUT"
-		(shape output)
-		(at 173.99 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "211522c5-b06b-49e0-be86-8360bd9c7006")
+		(uuid "ff9e5cde-8b3b-471c-8bb0-06aa45ccc352")
 	)
 	(hierarchical_label "ILM"
 		(shape output)
-		(at 135.89 102.87 270)
+		(at 154.94 104.14 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4461fb6d-9331-408b-8592-20f9e436f9fc")
+		(uuid "1c08db54-fa48-4622-bd9d-815365edb39e")
 	)
-	(hierarchical_label "PG"
+	(hierarchical_label "OUT"
 		(shape output)
-		(at 139.7 102.87 0)
+		(at 193.04 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "936b8c48-94de-492f-98b6-e428075399c4")
+		(uuid "d461f5ab-0bfa-477e-8c30-ba95383e69eb")
+	)
+	(hierarchical_label "PG"
+		(shape output)
+		(at 158.75 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f989a0ea-e0be-48c7-85f3-12c037b334b8")
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 153.67 69.85) (xy 153.67 125.73) (xy 93.98 125.73) (xy 93.98 69.85)
+				(xy 172.72 71.12) (xy 172.72 127) (xy 113.03 127) (xy 113.03 71.12)
 			)
 			(stroke
 				(width 0)
@@ -1888,13 +1888,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 720abb48-9927-4afd-a907-365785cc1fff)
+			(uuid 6b6957a4-74a3-4805-8cad-68cbc55c1735)
 		)
 	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 99.06 69.85 0)
+		(at 118.11 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1902,9 +1902,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "36dc7158-7370-422f-b8a5-2126758d99de")
+		(uuid "fd9f1b99-fa5e-4b1a-a518-a8d2c7b713ff")
 		(property "Netclass" ""
-			(at -135.89 -25.4 0)
+			(at -116.84 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +1912,7 @@
 			)
 		)
 		(property "Component Class" "EFUSE"
-			(at 99.7585 67.31 0)
+			(at 118.8085 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 102.87 0)
+		(at 163.83 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1932,8 +1932,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3cb57a-92e1-4ff8-98b1-1fd066beea3e")
-		(property "Reference" "#PWR012"
-			(at 144.78 109.22 0)
+		(property "Reference" "#PWR028"
+			(at 163.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 107.95 0)
+			(at 163.83 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 102.87 0)
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 102.87 0)
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 102.87 0)
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,12 +1978,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd8fc97c-a2c2-4333-9d6e-34be77676fe9")
+			(uuid "1e4e9254-7ef6-461c-90ad-fbcd5d732572")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1991,7 +1995,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 107.95 270)
+		(at 162.56 109.22 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1999,8 +2003,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "244bf315-cc3e-4c8e-a490-90d1de50da40")
-		(property "Reference" "R7"
-			(at 143.764 110.49 90)
+		(property "Reference" "R11"
+			(at 162.814 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2012,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 143.764 113.03 90)
+			(at 162.814 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2020,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.51 109.728 90)
+			(at 162.56 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 107.95 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2038,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 107.95 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2047,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 143.51 107.95 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2056,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5101TCE"
-			(at 143.51 107.95 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2065,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 143.51 107.95 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2074,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25905"
-			(at 143.51 107.95 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,15 +2083,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "44d6b654-a996-478f-8522-6384b8587a62")
+			(uuid "fea339c4-4f0c-43b7-8ab3-b3c1a4ce74ac")
 		)
 		(pin "2"
-			(uuid "1b4277fa-f1d2-468c-9d26-d70a3ffd6d47")
+			(uuid "ea038c09-df7a-4b7f-8ca2-ba5cbedc76e1")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2095,7 +2103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 97.79 0)
+		(at 119.38 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2103,8 +2111,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262804f8-a5e7-42f7-b6cb-e746e916dd53")
-		(property "Reference" "#PWR018"
-			(at 100.33 104.14 0)
+		(property "Reference" "#PWR020"
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2121,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 102.87 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 97.79 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 97.79 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 97.79 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,12 +2157,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "60b2eba5-43f5-4369-8f41-61bcb53dabae")
+			(uuid "337a1f0f-fd9f-478a-a632-8ddd8b641026")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2174,7 @@
 	)
 	(symbol
 		(lib_id "GLCS:TPS259472x")
-		(at 129.54 87.63 0)
+		(at 148.59 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2170,8 +2182,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b328b87-48ed-416f-953e-78dfe311944a")
-		(property "Reference" "U6"
-			(at 128.905 74.93 0)
+		(property "Reference" "U1"
+			(at 147.955 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2191,7 @@
 			)
 		)
 		(property "Value" "TPS259472A"
-			(at 128.905 77.47 0)
+			(at 147.955 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2199,7 @@
 			)
 		)
 		(property "Footprint" "GLCS:Texas_RPW0010A_VQFN-HR-10_2x2mm_P0.5mm"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2208,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2217,7 @@
 			)
 		)
 		(property "Description" "2.7-V to 23-V, 28-mΩ, 5.5-A eFuse with integrated reverse polarity protection"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2226,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2235,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C3662789"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2244,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2253,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TPS259472ARPWR"
-			(at 129.54 87.63 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,39 +2262,43 @@
 			)
 		)
 		(pin "6"
-			(uuid "dd98f421-a8d0-4e21-b6f1-e295b5fba47a")
+			(uuid "c6d3211e-4451-428b-9446-28b3a9e52924")
 		)
 		(pin "3"
-			(uuid "8657ef72-1543-4b7c-a573-ea979dd05d95")
+			(uuid "a99251dc-e857-4e00-a929-9a48c18673f2")
 		)
 		(pin "9"
-			(uuid "428c9d72-8e7e-48f6-8cb7-4f1bd9ff5092")
+			(uuid "8c37b0c4-8a35-492c-a9a5-0fe82dc1e985")
 		)
 		(pin "1"
-			(uuid "39bbfec1-c0d6-4514-8e78-f42936ca46f1")
+			(uuid "36eb6c4a-4958-4784-a6ac-3256153f81e0")
 		)
 		(pin "5"
-			(uuid "41dbf259-edbf-4a8e-8b2a-7cab71f727f7")
+			(uuid "33d2535a-d59b-460a-b4be-a97c8a418ef6")
 		)
 		(pin "2"
-			(uuid "6c8608de-6423-4ca8-881d-c2e457b35e08")
+			(uuid "f89e0f4d-a5ba-463e-8fd5-677f78db039f")
 		)
 		(pin "8"
-			(uuid "476e3030-a109-48d0-9b92-66287a3529ee")
+			(uuid "1371c171-6664-45db-a3f1-8723ce3fd096")
 		)
 		(pin "7"
-			(uuid "7c255787-a572-4f5a-b5e5-7ba51f217ac9")
+			(uuid "3a2c77d0-9cee-42ac-a56f-e01aa6f27a84")
 		)
 		(pin "10"
-			(uuid "6ea1dea2-e40e-4a52-a756-733cf2427a92")
+			(uuid "3c5702ed-f7a4-4c6b-ad5f-d5ea9a3b1ec7")
 		)
 		(pin "4"
-			(uuid "5d665d24-9c55-4da6-8e9c-2ab96dc3c917")
+			(uuid "c451924b-1667-450f-89f1-6cbafb1e5ebd")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 96.52 0)
+		(at 132.08 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2298,8 +2314,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306b0134-08dd-45f8-b357-c724477be0d5")
-		(property "Reference" "#PWR07"
-			(at 113.03 102.87 0)
+		(property "Reference" "#PWR023"
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 101.6 0)
+			(at 132.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 96.52 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 96.52 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 96.52 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,12 +2360,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e55c704b-45db-44e9-b409-738e95f62f02")
+			(uuid "24bb750e-721b-434b-a4e7-5f44733de08f")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2377,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 109.22 0)
+		(at 152.4 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2365,8 +2385,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "496dda29-9d7b-4dbc-933c-9cdf97ee0076")
-		(property "Reference" "R2"
-			(at 129.54 112.014 0)
+		(property "Reference" "R10"
+			(at 148.59 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2394,7 @@
 			)
 		)
 		(property "Value" "620"
-			(at 129.54 114.554 0)
+			(at 148.59 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2402,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.128 109.22 90)
+			(at 154.178 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 109.22 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2420,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 109.22 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2429,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 133.35 109.22 90)
+			(at 152.4 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2438,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF6200TCE"
-			(at 133.35 109.22 90)
+			(at 152.4 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2447,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 133.35 109.22 90)
+			(at 152.4 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2456,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C4961"
-			(at 133.35 109.22 90)
+			(at 152.4 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,15 +2465,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7ee4900-3494-4e4e-a43d-01f5af53b399")
+			(uuid "727abe7c-ba08-4ede-b3a4-5b13c5ffa6d8")
 		)
 		(pin "2"
-			(uuid "dd2bd4ba-0ee9-4d12-b8ef-c489129b2e10")
+			(uuid "28ac57c9-5405-4d55-8000-7b12233666a1")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2461,7 +2485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 87.63 0)
+		(at 128.27 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2470,8 +2494,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8ad42f-4774-4a97-9a74-58c781c78200")
-		(property "Reference" "R6"
-			(at 106.68 86.3599 0)
+		(property "Reference" "R1"
+			(at 125.73 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2504,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 106.68 88.8999 0)
+			(at 125.73 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2513,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 110.998 87.63 90)
+			(at 130.048 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 87.63 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2531,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 87.63 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2540,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 109.22 87.63 90)
+			(at 128.27 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2549,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5101TCE"
-			(at 109.22 87.63 90)
+			(at 128.27 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2558,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 109.22 87.63 90)
+			(at 128.27 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2567,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25905"
-			(at 109.22 87.63 90)
+			(at 128.27 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,15 +2576,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e17818c1-157f-4f49-9edb-ad37aa0e23e6")
+			(uuid "e9afebfe-d138-4f78-a1e0-2a247589241d")
 		)
 		(pin "2"
-			(uuid "4c9758f7-8ab5-422d-b060-7bb2002148c7")
+			(uuid "043d8877-e1c4-4250-9a43-50766eecc295")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2568,7 +2596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 111.76 0)
+		(at 144.78 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2576,8 +2604,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533a95cd-ada8-46b3-aa4c-2a8e56feaf5b")
-		(property "Reference" "#PWR011"
-			(at 125.73 118.11 0)
+		(property "Reference" "#PWR024"
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 116.84 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 111.76 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 111.76 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 111.76 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,12 +2650,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bfbce17-d6fa-4baf-81e3-c66dcbec1ea7")
+			(uuid "1306242c-cddc-4e6f-bf58-b94ac63145d8")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2667,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 93.98 0)
+		(at 185.42 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2643,8 +2675,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5542f615-195e-4488-af4b-559b07b0e921")
-		(property "Reference" "#PWR06"
-			(at 166.37 100.33 0)
+		(property "Reference" "#PWR031"
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 99.06 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 93.98 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 93.98 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 93.98 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,12 +2721,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "03ef1c8b-a4f5-410d-9c35-2fc3390efe9d")
+			(uuid "a136a58c-6d15-4056-b5dc-ce23cf9c86d1")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 86.36 0)
+		(at 109.22 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2710,8 +2746,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a006ce7-2675-47ec-a1b2-98fd0ebff321")
-		(property "Reference" "#PWR019"
-			(at 90.17 92.71 0)
+		(property "Reference" "#PWR014"
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 91.44 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 86.36 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 86.36 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 86.36 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,12 +2792,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c89b7f1-3c65-437c-87f5-1a8dbd6e8fc4")
+			(uuid "bf3d6912-c25d-4ff5-85d4-6ca363c37d6a")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 170.18 87.63 0)
+		(at 189.23 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2777,8 +2817,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bf47425-30dd-4967-9beb-e5b6d63cf421")
-		(property "Reference" "C5"
-			(at 173.736 85.852 0)
+		(property "Reference" "C10"
+			(at 192.786 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2827,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 173.736 88.392 0)
+			(at 192.786 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2836,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 169.2148 91.44 0)
+			(at 188.2648 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 87.63 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2854,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 170.18 87.63 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2863,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 170.18 87.63 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2872,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2918361"
-			(at 170.18 87.63 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2881,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG"
-			(at 170.18 87.63 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2890,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RVT1E221M0607"
-			(at 170.18 87.63 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,15 +2899,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b075d260-d7c4-4b04-9da7-519c2f3c5aa7")
+			(uuid "7c5e3cf7-479e-47a7-af2b-8128aeddc9e6")
 		)
 		(pin "1"
-			(uuid "83e898d2-4525-4c63-b1e8-5be8c8db4ee2")
+			(uuid "732fc96f-217a-47a8-aa8a-40e1a9a4012b")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2875,7 +2919,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 97.79 0)
+		(at 128.27 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2884,8 +2928,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "763cc7f8-ce69-42cc-a3ad-9caae1f6427e")
-		(property "Reference" "R5"
-			(at 106.68 96.5199 0)
+		(property "Reference" "R9"
+			(at 125.73 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2938,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 106.68 99.0599 0)
+			(at 125.73 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2947,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.442 97.79 90)
+			(at 126.492 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 97.79 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2965,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 97.79 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +2974,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 109.22 97.79 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2983,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF2001TCE"
-			(at 109.22 97.79 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2992,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 109.22 97.79 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3001,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C4109"
-			(at 109.22 97.79 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,15 +3010,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "98b9a876-c646-4d85-9e38-e9f5470f610b")
+			(uuid "589cde59-0eae-4096-81f2-8bdaf8a57756")
 		)
 		(pin "2"
-			(uuid "71b87033-2011-407b-9f39-ee8732682f03")
+			(uuid "4161e077-217b-4228-9cdf-3723fb2ce5f6")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2982,15 +3030,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 128.27 105.41 0)
+		(at 147.32 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d95ff72-0781-4bb2-81dd-cf0132d903bd")
-		(property "Reference" "C29"
-			(at 129.032 100.838 0)
+		(property "Reference" "C8"
+			(at 148.082 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3047,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 129.032 102.87 0)
+			(at 148.082 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 129.2352 109.22 0)
+			(at 148.2852 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 105.41 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 128.27 105.41 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3083,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 128.27 105.41 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3092,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1523"
-			(at 128.27 105.41 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3101,7 @@
 			)
 		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 128.27 105.41 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3110,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402B102K500NT"
-			(at 128.27 105.41 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,15 +3119,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "4805d52c-8e68-4830-80ef-47f64551eed2")
+			(uuid "165ed1c5-52ce-48a2-a50e-93f3e4189b28")
 		)
 		(pin "1"
-			(uuid "d81d372f-c882-4fa3-ae88-a259b4da936a")
+			(uuid "1a9ab94d-c382-4d01-aba0-5b729de1462c")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "C29")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3087,15 +3139,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 138.43 113.03 90)
+		(at 157.48 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d9ff261-b15d-4640-b6ef-58afaad3f873")
-		(property "Reference" "D7"
-			(at 130.048 117.856 90)
+		(property "Reference" "D8"
+			(at 149.098 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3156,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 130.048 120.396 90)
+			(at 149.098 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3192,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3201,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec "
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3210,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "KT-0805G"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3219,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3228,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2297"
-			(at 138.43 113.03 0)
+			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,15 +3237,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcab3926-f9cd-4356-b6d7-e1fca824bc51")
+			(uuid "c212f136-a062-438d-9665-86dd6f549154")
 		)
 		(pin "2"
-			(uuid "ce6bb8d9-6495-4e66-b407-495ffcc8c84c")
+			(uuid "ddd46423-6051-4f00-bc3d-424e8f8b4f5b")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "D7")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3201,15 +3257,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 105.41 0)
+		(at 142.24 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "82abc098-1630-4a10-b747-6cbcebca1921")
-		(property "Reference" "C28"
-			(at 116.586 104.14 0)
+		(property "Reference" "C7"
+			(at 135.636 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3274,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 127 106.6799 0)
+			(at 146.05 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3284,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.1552 109.22 0)
+			(at 143.2052 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 105.41 0)
+			(at 142.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3302,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 105.41 0)
+			(at 142.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,15 +3311,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "11d96304-cdab-4be4-b4d9-bd0702a90cec")
+			(uuid "6d2ff900-c9df-4d31-ac02-445faae1881b")
 		)
 		(pin "1"
-			(uuid "79a1615e-56ae-49a7-8f4c-eb169284f92c")
+			(uuid "1f27511a-05fc-4285-bcbe-2dd5631c6956")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "C28")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3271,7 +3331,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 162.56 87.63 0)
+		(at 181.61 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3279,8 +3339,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "905b8a70-eaea-446d-8fd0-cdc033fabeb9")
-		(property "Reference" "C11"
-			(at 155.702 87.122 0)
+		(property "Reference" "C9"
+			(at 174.752 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3349,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 155.702 89.662 0)
+			(at 174.752 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3358,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 161.5948 91.44 0)
+			(at 180.6448 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 87.63 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3376,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 162.56 87.63 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3385,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 162.56 87.63 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3394,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2918361"
-			(at 162.56 87.63 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3403,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG"
-			(at 162.56 87.63 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3412,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RVT1E221M0607"
-			(at 162.56 87.63 0)
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,15 +3421,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "665ae03f-ae09-4d56-bbe3-8ae5d0f8de90")
+			(uuid "34339bb3-ef98-471f-91ab-24c12b2fc707")
 		)
 		(pin "1"
-			(uuid "f1ff9d8d-9b44-49b5-ba4a-e5424e8504e3")
+			(uuid "882ffadb-1a4e-4549-8582-5b910d0a8f07")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "C11")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3377,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 118.11 0)
+		(at 157.48 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3385,8 +3449,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cccf225-bbdb-45ac-99c8-a156fcd88a5b")
-		(property "Reference" "#PWR077"
-			(at 138.43 124.46 0)
+		(property "Reference" "#PWR026"
+			(at 157.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +3459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 123.19 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 118.11 0)
+			(at 157.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 118.11 0)
+			(at 157.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 118.11 0)
+			(at 157.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,12 +3495,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5faa727-7b36-4c72-b277-b000aa1414f7")
+			(uuid "908bc4f3-61e6-4ab1-bfe2-c72fb37f65ff")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3444,15 +3512,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 83.82 85.09 180)
+		(at 102.87 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ae2507c2-67ed-45cb-a1bb-b24c855ede86")
-		(property "Reference" "J5"
-			(at 83.82 88.9 0)
+		(property "Reference" "J1"
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3528,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 81.28 82.5501 0)
+			(at 100.33 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3538,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3556,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3565,7 @@
 			)
 		)
 		(property "Basic" "Z"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3574,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C158012"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3583,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3592,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B2B-XH-A(LF)(SN)"
-			(at 83.82 85.09 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,15 +3601,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4e93a0f-24be-4da6-9e5f-1b2d24bb99f8")
+			(uuid "411f738a-1738-4856-adbe-24cd63a49c78")
 		)
 		(pin "1"
-			(uuid "dac293da-9733-49dd-849a-5787dce709bf")
+			(uuid "e14d71d1-f3d3-41fa-b56e-352ad53fb266")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "J5")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3549,7 +3621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 114.3 0)
+		(at 152.4 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3557,8 +3629,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b02a1548-67a2-475a-a7e8-a24b6bc5cb81")
-		(property "Reference" "#PWR04"
-			(at 133.35 120.65 0)
+		(property "Reference" "#PWR025"
+			(at 152.4 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 119.38 0)
+			(at 152.4 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 114.3 0)
+			(at 152.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 114.3 0)
+			(at 152.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 114.3 0)
+			(at 152.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,12 +3675,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a583127-8391-4da0-806e-5e338fd656bb")
+			(uuid "44a8c9fb-7305-4026-8454-1295436c7521")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3616,7 +3692,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 92.71 0)
+		(at 119.38 93.98 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3624,8 +3700,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d80502eb-1beb-489e-a257-e27c4986f1e7")
-		(property "Reference" "C4"
-			(at 99.314 87.122 0)
+		(property "Reference" "C6"
+			(at 118.364 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3710,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 99.314 89.662 0)
+			(at 118.364 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3719,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 101.2952 88.9 0)
+			(at 120.3452 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 92.71 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3737,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 92.71 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3746,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 100.33 92.71 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3755,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
-			(at 100.33 92.71 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3764,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 100.33 92.71 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3773,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C52923"
-			(at 100.33 92.71 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,15 +3782,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e85fabdd-abae-469d-9978-e841e6d37ef7")
+			(uuid "d12dc14a-9bca-4d05-98d1-13c60017ea64")
 		)
 		(pin "2"
-			(uuid "f57b970c-fc3e-490a-9b56-ca94a1f254f5")
+			(uuid "cd4af169-e0ad-4c1b-b575-f596d9b3e23b")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3722,15 +3802,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 105.41 0)
+		(at 167.64 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dba912f3-f046-45eb-9b77-dc3ac9b56991")
-		(property "Reference" "#PWR013"
-			(at 148.59 109.22 0)
+		(property "Reference" "#PWR030"
+			(at 167.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3819,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.352 101.6 0)
+			(at 168.402 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 105.41 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 105.41 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 105.41 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,12 +3854,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "06ebafcc-3c52-4777-9b52-b91dec2a8a98")
+			(uuid "b582f6b9-1edb-4fb9-8b36-00d13978692b")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3871,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 87.63 0)
+		(at 163.83 88.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3796,8 +3880,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ce0461-4730-4e1f-871d-e2406cd6433d")
-		(property "Reference" "R8"
-			(at 147.32 86.3599 0)
+		(property "Reference" "R12"
+			(at 166.37 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3890,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 147.32 88.8999 0)
+			(at 166.37 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3899,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.002 87.63 90)
+			(at 162.052 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3908,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 87.63 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3917,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 87.63 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3926,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 144.78 87.63 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3935,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 144.78 87.63 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3944,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 144.78 87.63 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3953,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 144.78 87.63 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,15 +3962,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "128c1aad-d8a2-438b-b354-a2373fcd246b")
+			(uuid "142fbadc-89ce-4c26-ad1a-13e852ded300")
 		)
 		(pin "2"
-			(uuid "b1116bb9-4796-4874-a60a-7a7048f5deb1")
+			(uuid "b3329c8e-6106-4136-aa2c-9448a6f0aafd")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3982,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 97.79 0)
+		(at 163.83 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3903,8 +3991,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc74db0-0d33-49be-b912-c17a260d930e")
-		(property "Reference" "R27"
-			(at 147.32 96.5199 0)
+		(property "Reference" "R13"
+			(at 166.37 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +4001,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 147.32 99.0599 0)
+			(at 166.37 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.002 97.79 90)
+			(at 162.052 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 97.79 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +4028,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 97.79 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +4037,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 144.78 97.79 90)
+			(at 163.83 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4046,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5101TCE"
-			(at 144.78 97.79 90)
+			(at 163.83 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +4055,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 144.78 97.79 90)
+			(at 163.83 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +4064,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25905"
-			(at 144.78 97.79 90)
+			(at 163.83 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,15 +4073,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ea01a08-1e5e-437d-8ddb-a36bbe5cd3f3")
+			(uuid "98b13ae4-e2a9-41b4-bcd9-d02a725e6fcb")
 		)
 		(pin "2"
-			(uuid "a8c13737-7448-4725-8079-68ca0df157e3")
+			(uuid "c843aaaf-885c-4134-a160-056c75a3465d")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "R27")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4093,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 102.87 0)
+		(at 128.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4009,8 +4101,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08bc1ab-4498-4be9-8dea-153bd776466a")
-		(property "Reference" "#PWR01"
-			(at 109.22 109.22 0)
+		(property "Reference" "#PWR022"
+			(at 128.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 107.95 0)
+			(at 128.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 102.87 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 102.87 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 102.87 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,12 +4147,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "68413b8d-da3b-4d83-a398-7b4b1fbcf4ef")
+			(uuid "9e6bc580-ae5d-4ec4-a796-91666e559716")
 		)
 		(instances
 			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/48973bbb-a015-4db7-bad7-59f32d4f7f80"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/893ee43e-1e1d-4b28-9f3e-05e35ba62aed"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543/fbcc9a91-3664-4a13-b680-428e68f2e4f4"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
