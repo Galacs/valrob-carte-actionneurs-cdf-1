@@ -4655,6 +4655,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -5359,6 +5509,18 @@
 		)
 	)
 	(rectangle
+		(start 123.19 137.16)
+		(end 154.94 158.75)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0dad6363-c87d-4779-b093-c67b53679161)
+	)
+	(rectangle
 		(start 15.24 13.97)
 		(end 48.26 35.56)
 		(stroke
@@ -5525,6 +5687,18 @@
 			)
 		)
 		(uuid "45e7f5e1-2d4f-4777-a3cc-bccf97ae2984")
+	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 146.05 155.448 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "6b1954da-5a44-4288-a314-6e8a025a9103")
 	)
 	(text "HSE"
 		(exclude_from_sim no)
@@ -5823,6 +5997,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d8f71e-3e30-4cbf-8dbd-ee9dd0c98f6e")
+	)
+	(junction
+		(at 127 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dad35d0e-b7b7-434a-966b-fbc83aa45d3d")
 	)
 	(junction
 		(at 170.18 64.77)
@@ -6158,6 +6338,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 142.24) (xy 129.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143b3dea-3705-4b92-8e6e-813c00139ff2")
+	)
+	(wire
+		(pts
 			(xy 88.9 172.72) (xy 88.9 173.99)
 		)
 		(stroke
@@ -6275,6 +6465,16 @@
 			(type default)
 		)
 		(uuid "2c5145d5-08be-4014-8983-dcc5310aef8e")
+	)
+	(wire
+		(pts
+			(xy 139.7 148.59) (xy 149.86 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfd102f-ab5e-4a7b-89a8-90261df80e2b")
 	)
 	(wire
 		(pts
@@ -6708,6 +6908,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.24) (xy 149.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd8a849-2532-4539-85a7-5485a3382d12")
+	)
+	(wire
+		(pts
 			(xy 143.51 45.72) (xy 143.51 44.45)
 		)
 		(stroke
@@ -7088,6 +7298,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 148.59) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf30af1-e48a-4194-9200-a3986a8ed90c")
+	)
+	(wire
+		(pts
 			(xy 16.51 133.35) (xy 21.59 133.35)
 		)
 		(stroke
@@ -7188,6 +7408,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 151.13) (xy 127 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f4ba67-17b7-4146-b31d-32cb40a60782")
+	)
+	(wire
+		(pts
 			(xy 265.43 64.77) (xy 269.24 64.77)
 		)
 		(stroke
@@ -7215,6 +7445,16 @@
 			(type default)
 		)
 		(uuid "96d8bec0-0a70-4cea-84ab-c58c47a51520")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973841b9-6b25-4330-b330-514ec08e6650")
 	)
 	(wire
 		(pts
@@ -8186,6 +8426,16 @@
 		)
 		(uuid "fffae21e-f983-4b66-9be4-400b4b988ddd")
 	)
+	(label "BOOT"
+		(at 149.86 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02f98df7-2446-4263-9dcd-5decb61496fd")
+	)
 	(label "ESP_D-"
 		(at 257.81 67.31 180)
 		(effects
@@ -8295,6 +8545,16 @@
 			(justify left bottom)
 		)
 		(uuid "5987355e-30fe-4c78-83ff-d2236f1a2cfb")
+	)
+	(label "CHIP_PU"
+		(at 149.86 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "673d37f3-0f0e-4f7f-9016-9d2382d5d4a2")
 	)
 	(label "ILM_A"
 		(at 96.52 137.16 180)
@@ -9810,6 +10070,110 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e9d8797-ac6e-4105-a821-e6f4e3ff284f")
+		(property "Reference" "SW2"
+			(at 134.62 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e208137-9740-4966-9769-359ddde8ca94")
+		)
+		(pin "1"
+			(uuid "f3ae872d-3047-4f39-9211-077c83999707")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -12018,6 +12382,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5de6ea55-a8c1-4e49-91c4-c57a34c0b460")
+		(property "Reference" "SW1"
+			(at 134.62 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51f0b81-c49f-4a0c-80d9-729918f9f631")
+		)
+		(pin "1"
+			(uuid "095d3d10-dca4-4b02-b250-f7f44872fc8f")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 57.15 0)
 		(unit 1)
@@ -12922,7 +13390,7 @@
 			)
 		)
 		(property "Value" "+5V_MCU"
-			(at 22.352 120.142 0)
+			(at 22.606 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,6 +14128,72 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af149e1-9fbd-4a94-9a66-f2b690d93d9b")
+		(property "Reference" "#PWR055"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5943d01d-ef7f-4121-868e-e829362be97d")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18007,7 +18541,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "893ee43e-1e1d-4b28-9f3e-05e35ba62aed")
-		(property "Sheetname" "PWR Input"
+		(property "Sheetname" "PWR Input A"
 			(at 77.47 131.3684 0)
 			(effects
 				(font
@@ -18080,7 +18614,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fbcc9a91-3664-4a13-b680-428e68f2e4f4")
-		(property "Sheetname" "PWR Input1"
+		(property "Sheetname" "PWR Input B"
 			(at 77.47 145.3384 0)
 			(effects
 				(font
