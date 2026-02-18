@@ -5527,78 +5527,6 @@
 		(uuid 0dad6363-c87d-4779-b093-c67b53679161)
 	)
 	(rectangle
-		(start 49.53 81.28)
-		(end 82.55 102.87)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 16cdea91-7510-486d-af04-3f37fc251dc7)
-	)
-	(rectangle
-		(start 83.82 35.56)
-		(end 116.84 57.15)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 26bdee69-0fd3-47ec-8d27-362b37b1e7b5)
-	)
-	(rectangle
-		(start 15.24 12.7)
-		(end 48.26 34.29)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2ad7fe05-49b9-46bf-867f-73277490ced3)
-	)
-	(rectangle
-		(start 49.53 127)
-		(end 82.55 148.59)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3234e3b0-4ccb-4d05-bec5-e6458d07ddf7)
-	)
-	(rectangle
-		(start 49.53 35.56)
-		(end 82.55 57.15)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3b3ff645-2c59-46c1-aaa5-f60776c10370)
-	)
-	(rectangle
-		(start 15.24 104.14)
-		(end 48.26 125.73)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3be6b74f-a22e-40bb-8942-4ef1fa142bce)
-	)
-	(rectangle
 		(start 86.36 93.98)
 		(end 129.54 123.19)
 		(stroke
@@ -5609,54 +5537,6 @@
 			(type none)
 		)
 		(uuid 3d91dc56-7eef-433d-8914-bc47dd739d90)
-	)
-	(rectangle
-		(start 49.53 104.14)
-		(end 82.55 125.73)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4402019d-54b8-4297-a82c-ef0d2f90df52)
-	)
-	(rectangle
-		(start 83.82 12.7)
-		(end 116.84 34.29)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4957adb5-f5c3-41a7-8246-a68442da8a60)
-	)
-	(rectangle
-		(start 49.53 12.7)
-		(end 82.55 34.29)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5d703ddd-4ebd-42dc-bd64-1780a9d1d710)
-	)
-	(rectangle
-		(start 15.24 127)
-		(end 48.26 148.59)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 630401ca-4c40-403c-8831-529f22247682)
 	)
 	(rectangle
 		(start 74.93 161.29)
@@ -5671,18 +5551,6 @@
 		(uuid 844d36b4-b41d-4ffb-89ea-6a3b0ec58fc0)
 	)
 	(rectangle
-		(start 15.24 35.56)
-		(end 48.26 57.15)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a1c03923-5968-426c-a5eb-730177190f40)
-	)
-	(rectangle
 		(start 86.36 125.73)
 		(end 129.54 158.75)
 		(stroke
@@ -5693,30 +5561,6 @@
 			(type none)
 		)
 		(uuid aeb005ff-5a3b-4443-b56d-ca3c2fc66ace)
-	)
-	(rectangle
-		(start 15.24 81.28)
-		(end 48.26 102.87)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b939c9b5-8cb7-42a2-a234-be47c530fbfd)
-	)
-	(rectangle
-		(start 15.24 58.42)
-		(end 48.26 80.01)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c67a7512-eefb-40bc-99a0-cedad0d6d7b7)
 	)
 	(rectangle
 		(start 194.31 142.24)
@@ -5765,18 +5609,6 @@
 			(type none)
 		)
 		(uuid e34be9e3-276e-4189-9622-ad980890a873)
-	)
-	(rectangle
-		(start 49.53 58.42)
-		(end 82.55 80.01)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f1f099e4-6ef0-48f9-a7ee-96563c6cf780)
 	)
 	(rectangle
 		(start 106.68 161.29)
@@ -11663,6 +11495,650 @@
 			(justify left bottom)
 		)
 		(uuid "ff2c3f32-62aa-4079-bb30-faa46b3855f9")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 83.82 12.7) (xy 83.82 34.29) (xy 116.84 34.29) (xy 116.84 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2c73eac9-4e55-44f3-b365-6bf153c29d13)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 81.28) (xy 15.24 102.87) (xy 48.26 102.87) (xy 48.26 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2deb5ddc-e001-4a30-b2c9-1cbb043e5be4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 12.7) (xy 49.53 34.29) (xy 82.55 34.29) (xy 82.55 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2fdb6dac-519c-4104-8193-bbf69ce07258)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 127) (xy 15.24 148.59) (xy 48.26 148.59) (xy 48.26 127)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5cc019a8-0ccb-4cc9-9dc2-0dbe61a79dae)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 35.56) (xy 15.24 57.15) (xy 48.26 57.15) (xy 48.26 35.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 660e0ad3-3ab6-4082-b709-89bd19cc6c53)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 35.56) (xy 49.53 57.15) (xy 82.55 57.15) (xy 82.55 35.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 72dd44ba-35e2-4325-9616-08fb79d77271)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 58.42) (xy 49.53 80.01) (xy 82.55 80.01) (xy 82.55 58.42)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 730a716e-da1a-44b2-98d7-414e72328146)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 104.14) (xy 15.24 125.73) (xy 48.26 125.73) (xy 48.26 104.14)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7f05b31a-1d8e-42a9-9a6f-c4e5685acce5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 81.28) (xy 49.53 102.87) (xy 82.55 102.87) (xy 82.55 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8d451525-9812-40ef-a71b-da6a62cf3b0d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 104.14) (xy 49.53 125.73) (xy 82.55 125.73) (xy 82.55 104.14)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8d577087-2cb8-4658-83e7-3286cb61e23d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 58.42) (xy 15.24 80.01) (xy 48.26 80.01) (xy 48.26 58.42)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c322992c-997c-4183-a583-1e37c3174133)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 85.09 35.56) (xy 85.09 57.15) (xy 118.11 57.15) (xy 118.11 35.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c3960e1f-5252-42bf-a606-763dc975bd96)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 12.7) (xy 15.24 34.29) (xy 48.26 34.29) (xy 48.26 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d04ae3dd-20ef-4e5e-90f5-70aed3bef79c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 127) (xy 49.53 148.59) (xy 82.55 148.59) (xy 82.55 127)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ff90dc69-6fbc-4842-b4f2-efaae9043295)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0091d72c-c69d-4cc3-87df-710b6442e4f1")
+		(property "Netclass" ""
+			(at -3.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 70.5485 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e74386d-a9db-46c2-9a58-d76a54b86c03")
+		(property "Netclass" ""
+			(at -38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 36.2585 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c83a623-f577-4c82-b312-a4b323289859")
+		(property "Netclass" ""
+			(at -3.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 70.5485 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 104.14 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f59ae61-a0b6-4bfa-bfbc-331fddd14922")
+		(property "Netclass" ""
+			(at 30.48 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 104.8385 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "222781d7-444d-4746-9809-699d909bc6fe")
+		(property "Netclass" ""
+			(at -38.1 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 36.2585 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "790d5d6f-f320-4c61-9d8a-3539f2c68840")
+		(property "Netclass" ""
+			(at -3.81 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 70.5485 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e18b504-e585-4f55-be37-569560ff67fe")
+		(property "Netclass" ""
+			(at -38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 36.2585 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2e4ef52-bcd1-4090-ac8d-d3b93af4efa0")
+		(property "Netclass" ""
+			(at -3.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 70.5485 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1945fda-a35a-4143-84cd-7fbc94f9c83d")
+		(property "Netclass" ""
+			(at -38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 36.2585 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e9dce6-e9cb-40cd-9e69-f1a660c80c1e")
+		(property "Netclass" ""
+			(at -3.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 70.5485 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d304e67d-6971-4607-999d-269926f63501")
+		(property "Netclass" ""
+			(at -3.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 70.5485 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d79560b3-78f9-4002-ab6b-39aa2b69d9f8")
+		(property "Netclass" ""
+			(at -38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 36.2585 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 105.41 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbde3d74-2750-456b-a5e9-2a55138ed97a")
+		(property "Netclass" ""
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 106.1085 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f369d689-fc8c-45eb-89fd-1d61b7472b03")
+		(property "Netclass" ""
+			(at -38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Servo"
+			(at 36.2585 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
