@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "6d04427e-e45e-4b7f-8323-501f87acc543")
 	(paper "A4")
+	(title_block
+		(title "Carte actionneurs CDF 1")
+		(date "2026-02-18")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
