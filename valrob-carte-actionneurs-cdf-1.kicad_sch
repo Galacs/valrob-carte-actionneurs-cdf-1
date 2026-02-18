@@ -6155,12 +6155,6 @@
 		(uuid "165476a4-35cc-4fff-9eba-cf750ed3cbd4")
 	)
 	(junction
-		(at 115.57 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16abc628-aaad-4e5d-86f4-a749cf178844")
-	)
-	(junction
 		(at 26.67 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6561,12 +6555,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab1d64cb-33fa-4e14-8608-3005b16676b3")
-	)
-	(junction
-		(at 105.41 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abdfb0be-5af0-48de-911b-24fdd3886846")
 	)
 	(junction
 		(at 57.15 29.21)
@@ -8406,16 +8394,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 148.59) (xy 115.57 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62537fcb-3f36-4333-a2f5-0d0c82422b66")
-	)
-	(wire
-		(pts
 			(xy 270.51 147.32) (xy 275.59 147.32)
 		)
 		(stroke
@@ -9666,16 +9644,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 148.59) (xy 115.57 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1af4c80-82d2-440e-bd14-3c1a463aca12")
-	)
-	(wire
-		(pts
 			(xy 19.05 64.77) (xy 19.05 66.04)
 		)
 		(stroke
@@ -10903,16 +10871,6 @@
 			(type default)
 		)
 		(uuid "e9ff23e5-32f1-4ca8-9145-ca85292eb2c6")
-	)
-	(wire
-		(pts
-			(xy 106.68 148.59) (xy 105.41 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaad09f6-acfe-489d-a0f3-d54efed650f6")
 	)
 	(wire
 		(pts
@@ -12201,111 +12159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 110.49 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0529db92-6cd3-421e-9a6f-bc10ee445683")
-		(property "Reference" "D24"
-			(at 110.744 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 110.8075 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microdiode Semiconductor (MDD)"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SS54"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C22452"
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f377425-80fb-46c3-859b-302a0df8b1ef")
-		)
-		(pin "1"
-			(uuid "58228ed5-40fe-41b3-9b87-31c982732f70")
-		)
-		(instances
-			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 45.72 167.64 270)
 		(mirror x)
@@ -12597,7 +12450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 53.34 37.084 0)
 			(effects
 				(font
@@ -13387,7 +13240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 53.34 128.524 0)
 			(effects
 				(font
@@ -13946,7 +13799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 19.05 105.664 0)
 			(effects
 				(font
@@ -14873,71 +14726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
-		(at 105.41 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "295ec58c-aafd-471f-906d-58094f287e8d")
-		(property "Reference" "#PWR044"
-			(at 105.41 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VB"
-			(at 105.41 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 105.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d626f6e4-2944-4304-b4a4-5ed3c531b4c0")
-		)
-		(instances
-			(project "valrob-carte-actionneurs-cdf-1"
-				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 219.71 154.94 0)
 		(unit 1)
@@ -15726,7 +15514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 19.05 82.804 0)
 			(effects
 				(font
@@ -16430,7 +16218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 53.34 82.804 0)
 			(effects
 				(font
@@ -16972,7 +16760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 19.05 128.524 0)
 			(effects
 				(font
@@ -18384,7 +18172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 19.05 59.944 0)
 			(effects
 				(font
@@ -18761,7 +18549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 53.34 59.944 0)
 			(effects
 				(font
@@ -19417,7 +19205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 105.41 128.27 0)
 			(effects
 				(font
@@ -20011,6 +19799,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 105.41 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c6aa905-4451-45b9-a081-70aba5345e26")
+		(property "Reference" "#PWR044"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01f9aad9-e94e-4488-9807-15dc73b525a4")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 57.15 41.91 180)
 		(unit 1)
@@ -20162,7 +20016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 53.34 14.224 0)
 			(effects
 				(font
@@ -22572,7 +22426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 87.63 37.084 0)
 			(effects
 				(font
@@ -25864,7 +25718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 19.05 14.224 0)
 			(effects
 				(font
@@ -26170,7 +26024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 53.34 105.664 0)
 			(effects
 				(font
@@ -26652,7 +26506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VB"
+		(property "Value" "+5V"
 			(at 87.63 14.224 0)
 			(effects
 				(font
@@ -27974,7 +27828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
+		(property "Value" "+5V"
 			(at 19.05 37.084 0)
 			(effects
 				(font
