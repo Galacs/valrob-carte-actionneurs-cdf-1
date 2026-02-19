@@ -11726,7 +11726,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 12"
 			(at 70.5485 146.05 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 6"
 			(at 36.2585 146.05 0)
 			(effects
 				(font
@@ -11788,7 +11788,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 10"
 			(at 70.5485 100.33 0)
 			(effects
 				(font
@@ -11819,7 +11819,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 13"
 			(at 104.8385 31.75 0)
 			(effects
 				(font
@@ -11850,7 +11850,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 7"
 			(at 70.5485 31.75 0)
 			(effects
 				(font
@@ -11881,7 +11881,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 5"
 			(at 36.2585 123.19 0)
 			(effects
 				(font
@@ -11912,7 +11912,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 9"
 			(at 70.5485 77.47 0)
 			(effects
 				(font
@@ -11943,7 +11943,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 3"
 			(at 36.2585 77.47 0)
 			(effects
 				(font
@@ -11974,7 +11974,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 8"
 			(at 70.5485 54.61 0)
 			(effects
 				(font
@@ -12005,7 +12005,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 11"
 			(at 70.5485 123.19 0)
 			(effects
 				(font
@@ -12036,7 +12036,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 4"
 			(at 36.2585 100.33 0)
 			(effects
 				(font
@@ -12067,7 +12067,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 14"
 			(at 106.1085 54.61 0)
 			(effects
 				(font
@@ -12098,7 +12098,7 @@
 				)
 			)
 		)
-		(property "Component Class" "Servo"
+		(property "Component Class" "Servo 2"
 			(at 36.2585 54.61 0)
 			(effects
 				(font
