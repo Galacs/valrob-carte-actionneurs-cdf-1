@@ -11499,6 +11499,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 15.24 81.28) (xy 15.24 102.87) (xy 48.26 102.87) (xy 48.26 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2aff0c5b-e59c-4633-ae1c-905179a6eb89)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 83.82 12.7) (xy 83.82 34.29) (xy 116.84 34.29) (xy 116.84 12.7)
 			)
 			(stroke
@@ -11509,21 +11524,6 @@
 				(type none)
 			)
 			(uuid 2c73eac9-4e55-44f3-b365-6bf153c29d13)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 15.24 81.28) (xy 15.24 102.87) (xy 48.26 102.87) (xy 48.26 81.28)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2deb5ddc-e001-4a30-b2c9-1cbb043e5be4)
 		)
 	)
 	(rule_area
@@ -12019,7 +12019,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 35.56 102.87 0)
+		(at 36.83 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12029,7 +12029,7 @@
 		)
 		(uuid "d79560b3-78f9-4002-ab6b-39aa2b69d9f8")
 		(property "Netclass" ""
-			(at -38.1 83.82 0)
+			(at -36.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12037,7 @@
 			)
 		)
 		(property "Component Class" "Servo 4"
-			(at 36.2585 100.33 0)
+			(at 37.5285 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
