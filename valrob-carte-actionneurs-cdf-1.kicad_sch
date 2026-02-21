@@ -7094,6 +7094,10 @@
 		(uuid "7c7f1a7c-a3b8-46ed-a606-8642d21083c3")
 	)
 	(no_connect
+		(at 182.88 92.71)
+		(uuid "7e7a0e21-f8d2-4523-b1a1-945c054983a2")
+	)
+	(no_connect
 		(at 182.88 102.87)
 		(uuid "ad735155-f5a1-4575-b27c-9619485996f9")
 	)
@@ -9547,16 +9551,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 190.5) (xy 163.83 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e277c3-9eef-4ffb-a33e-bb31e7dbab70")
-	)
-	(wire
-		(pts
 			(xy 138.43 181.61) (xy 144.78 181.61)
 		)
 		(stroke
@@ -10667,6 +10661,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 190.5) (xy 173.99 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5f85fe-0556-4a3e-b7a3-c53d6af1eb8c")
+	)
+	(wire
+		(pts
 			(xy 248.92 90.17) (xy 259.08 90.17)
 		)
 		(stroke
@@ -10684,6 +10688,16 @@
 			(type default)
 		)
 		(uuid "cc959433-6b40-4ee5-8a98-7603e600c366")
+	)
+	(wire
+		(pts
+			(xy 173.99 190.5) (xy 173.99 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce39e70-22f9-47bc-9e08-2a3a62e69c14")
 	)
 	(wire
 		(pts
@@ -11437,16 +11451,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 182.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e2ca32-06bb-44bc-9c5f-335159d7179f")
-	)
-	(wire
-		(pts
 			(xy 52.07 184.15) (xy 52.07 187.96)
 		)
 		(stroke
@@ -11795,6 +11799,16 @@
 		)
 		(uuid "390c6f58-974f-467a-ba2c-83cb3a877fb3")
 	)
+	(label "GPIO40"
+		(at 172.72 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b3e087c-1a3e-4042-aeb0-c4546ff5fe32")
+	)
 	(label "GPIO38"
 		(at 259.08 118.11 180)
 		(effects
@@ -11814,16 +11828,6 @@
 			(justify left bottom)
 		)
 		(uuid "3f2b7eba-145c-46ff-b3b4-cfbb31bb8ec8")
-	)
-	(label "GPIO37"
-		(at 172.72 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40ba7f25-00a7-4506-b064-50a26130858c")
 	)
 	(label "SERVO7"
 		(at 57.15 16.51 0)
@@ -11934,26 +11938,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bb7e1af-33a7-4b4f-b914-febe251889e6")
-	)
-	(label "GPIO41"
-		(at 172.72 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f2224b9-a1b9-42aa-ac98-2560bc5b8254")
-	)
-	(label "GPIO40"
-		(at 172.72 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60620b2d-8102-4dc7-b1f8-9fcc61129fac")
 	)
 	(label "CHIP_PU"
 		(at 158.75 148.59 180)
@@ -12195,16 +12179,6 @@
 		)
 		(uuid "a5cef76d-b0c9-4b04-a95a-269e772e2f43")
 	)
-	(label "GPIO41"
-		(at 173.99 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abaa7fa0-fafa-4e11-b026-139a8da91b2c")
-	)
 	(label "U0TXD"
 		(at 250.19 57.15 0)
 		(effects
@@ -12245,16 +12219,6 @@
 		)
 		(uuid "bcc9c510-bef3-46b9-adfb-d0d04596ea48")
 	)
-	(label "GPIO38"
-		(at 172.72 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3e4c1a0-e7de-4e07-8ce3-ecb5c52bed59")
-	)
 	(label "XTAL_N"
 		(at 224.79 149.86 180)
 		(effects
@@ -12284,6 +12248,16 @@
 			(justify right bottom)
 		)
 		(uuid "cca7d745-000b-4f68-ad9b-e461f307f5c2")
+	)
+	(label "GPIO37"
+		(at 172.72 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce0698cd-eb45-493f-a858-91d7e064d10c")
 	)
 	(label "GPIO36"
 		(at 172.72 177.8 180)
@@ -12374,6 +12348,16 @@
 			(justify left bottom)
 		)
 		(uuid "e372a7bc-d459-4799-87de-4aabc2565b22")
+	)
+	(label "GPIO38"
+		(at 172.72 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6249fbb-211c-4a0d-a11d-94dc4b645e14")
 	)
 	(label "SERVO14"
 		(at 91.44 39.37 0)
@@ -15799,6 +15783,71 @@
 			(project "valrob-carte-actionneurs-cdf-1"
 				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2992b80f-4981-446b-b1fb-53ddb6dedf1f")
+		(property "Reference" "#PWR032"
+			(at 173.99 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 169.672 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7784c5e7-62f4-4775-bd06-948cbf8362d3")
+		)
+		(instances
+			(project "valrob-carte-actionneurs-cdf-1"
+				(path "/6d04427e-e45e-4b7f-8323-501f87acc543"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
