@@ -11745,16 +11745,6 @@
 		)
 		(uuid "2b83615a-05db-4b0e-b543-28688a326969")
 	)
-	(label "SERVO7"
-		(at 259.08 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2be0e202-2cda-4cd9-a419-e6ace45710d7")
-	)
 	(label "RF_TRANS"
 		(at 153.67 45.72 0)
 		(effects
@@ -11915,16 +11905,6 @@
 		)
 		(uuid "521384a3-c98a-4c26-9523-26ff41ca6007")
 	)
-	(label "SERVO6"
-		(at 259.08 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52775338-918d-47aa-b380-0b019a352ba6")
-	)
 	(label "GPIO36"
 		(at 173.99 125.73 0)
 		(effects
@@ -12044,6 +12024,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c50a603-2005-4762-8803-1f5c5c3e4f80")
+	)
+	(label "SERVO6"
+		(at 259.08 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "702e8ffc-b4f6-4781-a1f8-bdd2f971f5ba")
 	)
 	(label "D-"
 		(at 66.04 175.26 180)
@@ -12184,6 +12174,16 @@
 			(justify right bottom)
 		)
 		(uuid "94294ffe-bc51-4541-b3b4-79d4678dab34")
+	)
+	(label "SERVO7"
+		(at 259.08 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c824228-ed1d-4618-a5cc-65adb2eb5d3b")
 	)
 	(label "GPIO33"
 		(at 173.99 118.11 0)
