@@ -849,7 +849,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "053be300-c720-4fc8-a8b3-52748c59b428")
-		(at 109.21 86.8)
+		(at 109.22 86.36)
 		(descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x06 2.54mm double row")
 		(property "Reference" "J7"
@@ -4749,13 +4749,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1e982833-fd3e-4e91-94df-feb9d9108586")
-		(at 116.75 86.19)
+		(at 116.75 86.36)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J4"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "d28eec5f-43b0-4ccc-9d94-3a2a26009d87")
+			(uuid "87e5d29e-d89a-4b73-9703-1cf568577fbc")
 			(effects
 				(font
 					(size 1 1)
@@ -4766,7 +4766,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 0 10 0)
 			(layer "F.Fab")
-			(uuid "7a73f29d-b69c-44f6-8454-6ab48f710965")
+			(uuid "5967adf7-b0d4-48b1-bafd-b7a804a4d70c")
 			(effects
 				(font
 					(size 1 1)
@@ -4778,7 +4778,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84ba4b49-02a2-4835-956f-f78d663dc021")
+			(uuid "b8840251-e214-4fa0-893c-28f6b3151cb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4790,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78fa9503-5df7-4053-bd11-206cc47cbb16")
+			(uuid "70851284-7aba-4cb6-8d73-9608d80eb716")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21712,7 +21712,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b9e781b4-4f26-4913-b396-f66dd8188b0c")
-		(at 126.5 66.5 180)
+		(at 126.75 69.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
